@@ -129,7 +129,6 @@
 * [aria2c](tech_linux/aria2c_001.md) 
 * [git - archive](tech_git/git_0008.md)    
 * [git - tag](tech_git/git_0002.md)    
-* [git - cherry-pick](tech_git/git_0003.md)    
 * [git - revert](tech_git/git_0004.md)
 * [git - コミット日時を捏造](tech_git/git_0005.md)
 * [git - reset](tech_git/git_0007.md)
