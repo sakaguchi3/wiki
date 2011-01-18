@@ -22,6 +22,7 @@
 
 ## git
 * [git - lfs(large file system)](doc/git/git_lfs.md)
+* [git - revert](doc/git/git_revert.md)
 
 ## find 
 * [find - rm 大量のファイルを削除](doc/find/find_rm.md)

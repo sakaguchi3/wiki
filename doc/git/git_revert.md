@@ -1,38 +1,35 @@
 # git - revert
 
-
-## やりかた
-
-```git
-git revert [ハッシュ番号]
-```
-
+`git revert <hash_id>`
 
 ## merge commitをrevertする
 
-
-![](/tech_git/git_04/graph_01.jpg)
-
+![](/doc/git/git_04/graph_01.jpg)
 
 エラーメッセージ．マージ元のブランチが2つあるのでどちらに戻すか指定する必要がある．
-
-```git
-$ git revert branch
+```bash
+git revert branch
 error: Commit xxxx is a merge but no -m option was given.
 fatal: revert failed
 ```
 
 git showでmerge元の確認
 
-```git
+```bash
 git show branch 
 Merge: xxx yyy
 ```
 
-xxx(左側ブランチ)に戻すには 1, yyy(右側ブランチ)に戻すには2
+#### xxx(左側ブランチ)に戻すには 1, yyy(右側ブランチ)に戻すには2
 
-```git
-$ git revert branch -m 1
+左側
+```bash
+git revert branch -m 1
+```
+
+右側
+```bash
+git revert branch -m 2
 ```
 
 
