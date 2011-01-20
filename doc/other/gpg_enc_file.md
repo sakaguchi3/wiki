@@ -1,13 +1,48 @@
 # gpgでファイルの暗号化
 
+# 公開鍵暗号
+
+鍵を調べる
+
+```bash
+gpg -k
+
+pub   ed25519 2023-05-09 [SC] [expires: 2036-05-05]
+      da39a3ee5e6b4b0d3255bfef95601890afd80709
+uid           [ultimate] <example> <example@example.com>
+sub   cv25519 2023-05-09 [E] [expires: 2096-05-05]
+```
+
+encrypt
+
+```bash
+gpg -e <fingerprint or email> <file>
+```
+
+```bash
+echo 'test' > test.txt
+gpg -e da39a3ee5e6b4b0d3255bfef95601890afd80709 test.txt
+```
+
+decrypt
+```bash
+gpg test.txt.gpg
+passwd:
+```
+
+# 共通鍵暗号
 
 ## encrypt
 
 ```bash
 gpg -c file.txt
+passwd: 
+
+ls  
+file.txt
+file.txt.gpg
 ```
 
-成功すると `file.txt.gpg` が作成される。
 
 ## decrypt
 
@@ -16,9 +51,6 @@ gpg file.gpg
 ```
 
 ## gpg-agentをkill
-
-macの場合gpgを起動するとgpg-agentも起動される。
-gpgを動かすとgpg-agentがずっと起動状態になるので、暗号化/復号化が終わったらgpg-agentをkillしておく。
 
 ```bash
 ps aux | grep gpg-agent
