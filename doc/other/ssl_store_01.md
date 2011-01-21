@@ -97,23 +97,27 @@ An optional company name []:
 中間証明書とサーバ証明書を結合して一つのファイルを作成。  
 `fqdn_20221102_fullchain.pem`
 
-```nginx configuration
+```nginx
     ssl                  on;
     ssl_certificate      /etc/nginx/tls/fqdn_20221102_fullchain.pem;
     ssl_certificate_key  /etc/nginx/tls/fqdn_20221102_sec_nopass.pem;
 ```
-設定に問題がないかを確認する
+
+設定に問題がないかを確認する   
+
 ```
 ntinx -t
 ```
+
 設定再読み込み
+
 ```bash
  service nginx reload
 ```
 
 ## apacheの設定例
-中間証明書とサーバ証明書を結合する必要なし。
-```nginx configuration
+中間証明書とサーバ証明書を結合する必要なし。  
+```nginx
     # certification
     SSLCertificateFile      /etc/pki/tls/fqdn_20221102_cert.pem
     # Intermediate certification
@@ -122,15 +126,17 @@ ntinx -t
     SSLCertificateKeyFile   /etc/pki/tls/fqdn_20221102_sec_nopass.pem
 ```
 
-設定に問題がないかを確認する
+設定に問題がないかを確認する  
 ```
 apachectl configtest
 ```
-再読み込み
+
+再読み込み  
 ```bash
 apachectl graceful
 ```
-再読み込みで反映されない場合は再起動
+
+再読み込みで反映されない場合は再起動   
 ```bash
 apachectl restart
 ```
