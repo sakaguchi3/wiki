@@ -1,6 +1,8 @@
 # 備忘録
 
 
+## aws 
+* [aws lambda - pythonデプロイの作成](doc/aws-lambda/lambda01.md)
 
 ## AlmaLinux
 * [AlmaLinux8.0 - partition作成〜フォーマット](doc/almalinux/almalinux_fdisk.md)

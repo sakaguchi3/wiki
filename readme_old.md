@@ -28,7 +28,6 @@
 * [言語別乱数生成](tech_linux/rand_001.md)
 * [memo](tech_linux/memo_001.md)
 * [pythonのバージョンを切り替える - pyenv @ubuntu18.04](tech_linux/pytho_001.md)
-* [aws lambda - pythonデプロイの作成](tech_linux/pytho_002.md)
 * [MySQL - aws rds mysqlでdumpデータをimportする](tech_db/aws_rds_mysql_restore.md)
 * [MySQL実行時に `(1114, "The table '/rdsdbdata/tmp/#sqlxxxxxxxxxx' is full")` というエラーが出た ](tech_db/aws_rds_mysql_1.md)
 * [MySQL - 権限設定](tech_db/msyql_010.md)
