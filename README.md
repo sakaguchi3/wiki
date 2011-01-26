@@ -23,6 +23,9 @@
 ## git
 * [git - lfs(large file system)](doc/git/git_lfs.md)
 
+## find 
+* [find - rm 大量のファイルを削除](doc/find/find_rm.md)
+
 ## その他 
 * [vim - 備忘録](tech/vim_001.md)
 * [git - 備忘録](tech_git/git_0001.md)
