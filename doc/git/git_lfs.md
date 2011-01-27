@@ -1,4 +1,4 @@
-#  git - git lfs (learge file system)
+#  git - git lfs (large file system)
 
 
 

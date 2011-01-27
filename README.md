@@ -21,7 +21,7 @@
 * [MySQL8.0 - userの権限を設定](doc/mysql/8.0/mysql8_add_user.md)
 
 ## git
-* [git - lfs(learge file system)](doc/git/git_0006.md)
+* [git - lfs(large file system)](doc/git/git_lfs.md)
 
 ## その他 
 * [vim - 備忘録](tech/vim_001.md)
