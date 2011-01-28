@@ -127,7 +127,6 @@
 * [ffmpeg](tech/ffmpeg_01.md)    
 * [netcat](tech_linux/linux_015.md)   
 * [aria2c](tech_linux/aria2c_001.md) 
-* [git-lfs - ](tech_git/git_0006.md)
 * [git - archive](tech_git/git_0008.md)    
 * [git - tag](tech_git/git_0002.md)    
 * [git - cherry-pick](tech_git/git_0003.md)    
