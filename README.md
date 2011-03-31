@@ -32,6 +32,7 @@
 * [AlmaLinux8.0 - install java17](almalinux/almalinux_java17.md)
 * [AlmaLinux8.0 - install tomcat](almalinux/almalinux_tomcat9.md)
 * [AlmaLinux8.0 - sshd セキュリティ周り](almalinux/almalinux_sshd.md)
+* [AlmaLinux8.0 - networkに固定ipの設定をする](almalinux/almalinux_static_ip.md)
 
 ## Linux
 * [言語別乱数生成](tech_linux/rand_001.md)
