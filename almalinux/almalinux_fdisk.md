@@ -32,12 +32,38 @@ mkfs -t ext4 /dev/vdb
 ```
 
 
-マウントする
+uuidを取得
 ```
 blkid 
 /dev/vdb: UUID=xxxxx
+```
 
+fstab
+```
 vim /etc/fstab
+```
 
+```
+/dev/vdb /mnt/vdb ext4      defaults 0      2 
+```
+
+### フィールドの意味
+```
+<dev> <mount point> <format> <option> <dump> <pass>
+```
+*dump: 0*
+dumpコマンドを実行した時に保存する/しない。
+0: 保存しない
+1: 保存する
+
+*pass: 2*
+ブート時のfsckのチェックする順番。
+
+* 0: チェックなし
+* 1: 優先度が高い。一番初めにチェクされる
+* 2: 優先度が低い
+
+
+```
 mount -a
 ```
