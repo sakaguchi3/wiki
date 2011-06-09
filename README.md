@@ -26,6 +26,7 @@
 ## find 
 * [find - rm 大量のファイルを削除](doc/find/find_rm.md)
 * [find - atime, mtime, ctime](doc/find/find_time.md)
+* [find - mv](doc/find/find_mv.md)
 
 ## その他 
 * [vim - 備忘録](tech/vim_001.md)
