@@ -34,6 +34,9 @@
 * [AlmaLinux8.0 - sshd セキュリティ周り](almalinux/almalinux_sshd.md)
 * [AlmaLinux8.0 - networkに固定ipの設定をする](almalinux/almalinux_static_ip.md)
 * [AlmaLinux8.0 - nginx -  virtual hostごとにファイルを分割する](almalinux/almalinux_nginx_virtualhost.md)
+* [AlmaLinux8.0 - nginx - setup](almalinux/almalinux_nginx_setup.md)
+
+
 
 ## Linux
 * [言語別乱数生成](tech_linux/rand_001.md)
