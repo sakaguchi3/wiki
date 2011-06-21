@@ -35,6 +35,7 @@
 * [AlmaLinux8.0 - networkに固定ipの設定をする](almalinux/almalinux_static_ip.md)
 * [AlmaLinux8.0 - nginx -  virtual hostごとにファイルを分割する](almalinux/almalinux_nginx_virtualhost.md)
 * [AlmaLinux8.0 - nginx - setup](almalinux/almalinux_nginx_setup.md)
+* [AlmaLinux8.0 - 特定のプロセスだけsudoを許可したい](almalinux/almalinux_sudo.md)
 
 
 
