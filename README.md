@@ -36,6 +36,7 @@
 * [AlmaLinux8.0 - nginx -  virtual hostごとにファイルを分割する](almalinux/almalinux_nginx_virtualhost.md)
 * [AlmaLinux8.0 - nginx - setup](almalinux/almalinux_nginx_setup.md)
 * [AlmaLinux8.0 - 特定のプロセスだけsudoを許可したい](almalinux/almalinux_sudo.md)
+* [AlmaLinux8.0 - mysql clientのインストール](almalinux/almalinux_mysql.md)
 
 
 
