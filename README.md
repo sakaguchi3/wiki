@@ -30,13 +30,14 @@
 * [AlmaLinux8.0 - partition作成〜フォーマット](almalinux/almalinux_fdisk.md)
 * [AlmaLinux8.0 - ユーザ追加](./almalinux/almalinux_add_usr.md)
 * [AlmaLinux8.0 - install java17](almalinux/almalinux_java17.md)
-* [AlmaLinux8.0 - install tomcat](almalinux/almalinux_tomcat9.md)
+* [AlmaLinux8.0 - install tomcat](almalinux/almalinux_tomcat9_setup.md)
 * [AlmaLinux8.0 - sshd セキュリティ周り](almalinux/almalinux_sshd.md)
 * [AlmaLinux8.0 - networkに固定ipの設定をする](almalinux/almalinux_static_ip.md)
 * [AlmaLinux8.0 - nginx -  virtual hostごとにファイルを分割する](almalinux/almalinux_nginx_virtualhost.md)
 * [AlmaLinux8.0 - nginx - setup](almalinux/almalinux_nginx_setup.md)
 * [AlmaLinux8.0 - 特定のプロセスだけsudoを許可したい](almalinux/almalinux_sudo.md)
 * [AlmaLinux8.0 - mysql clientのインストール](almalinux/almalinux_mysql.md)
+* [AlmaLinux8.0 - tomcat catalina.outで文字化けが発生する](almalinux/almalinux_tomcat9_trouble.md)
 
 
 
