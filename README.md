@@ -31,6 +31,7 @@
 * [AlmaLinux8.0 - ユーザ追加](./almalinux/almalinux_add_usr.md)
 * [AlmaLinux8.0 - install java17](almalinux/almalinux_java17.md)
 * [AlmaLinux8.0 - install tomcat](almalinux/almalinux_tomcat9_setup.md)
+* [AlmaLinux8.0 - install php7.4](almalinux/almalinux_php_setup.md)
 * [AlmaLinux8.0 - sshd セキュリティ周り](almalinux/almalinux_sshd.md)
 * [AlmaLinux8.0 - networkに固定ipの設定をする](almalinux/almalinux_static_ip.md)
 * [AlmaLinux8.0 - nginx -  virtual hostごとにファイルを分割する](almalinux/almalinux_nginx_virtualhost.md)
