@@ -29,13 +29,8 @@
 
 * [AlmaLinux8.0 - partition作成〜フォーマット](almalinux/almalinux_fdisk.md)
 * [AlmaLinux8.0 - ユーザ追加](./almalinux/almalinux_add_usr.md)
-* [ ]( )
-* [ ]( )
-* [ ]( )
-* [ ]( )
-* [ ]( )
-* [ ]( )
- 
+* [AlmaLinux8.0 - install java17](almalinux/almalinux_java17.md)
+
 ## Linux
 * [言語別乱数生成](tech_linux/rand_001.md)
 * [memo](tech_linux/memo_001.md)
