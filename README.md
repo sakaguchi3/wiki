@@ -31,6 +31,10 @@
 * [useradd, ユーザの追加](doc/linux/useradd.md)
 * [group](doc/linux/group.md)
 
+## shell
+
+* [shellscriptでファイル一覧を取得してループ処理をする, tag:bash](doc/shellscript/list_all_files.md)
+
 ## ssh
 
 * [ssh-agent](doc/ssh/sshagent.md)
