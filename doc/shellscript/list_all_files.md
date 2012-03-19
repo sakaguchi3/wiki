@@ -1,6 +1,6 @@
 # shellscriptでファイル一覧を取得してループ処理をする
 
-ファイル一覧表示
+## ファイル一覧表示
 
 ```bash
 files=~/*
@@ -27,6 +27,14 @@ for f in "${files[@]}" ; do
 done
 ```
 
+## 拡張位だけ取得
+
+```bash
+for f in "${files[@]}" ; do
+ echo "${f##*.}"
+done
+```
+
 ## 拡張子を変更
 
 .csv => .tsv に変更する
@@ -34,14 +42,6 @@ done
 ```bash
 for f in "${files[@]}" ; do
  mv "$f" "${f/.csv/.tsv}"
-done
-```
-
-## 拡張位だけ取得
-
-```bash
-for f in "${files[@]}" ; do
- echo "${f##*.}"
 done
 ```
 
