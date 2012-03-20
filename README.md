@@ -111,6 +111,7 @@
 
 ## その他, other
 
+* [btrfs](doc/other/btrfs.md)
 * [zfs](doc/other/zfs.md)
 * [fdupes 重複ファイルの検索](doc/other/fdupes.md)
 * [zstd - tag:圧縮, 解凍, compress](tech/zstd.md)
