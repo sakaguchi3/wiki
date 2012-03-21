@@ -42,6 +42,19 @@ mnt="$HOME/mnt/test"
 zfs mount "$dataset" -O mountpoint=$mnt
 ```
 
+## loop back device
+
+```bash
+dd if=/dev/zero of=data bs=1G count=1
+hdiutil attach -imagekey diskimage-class=CRawDiskImage -nomount ./data
+
+zpool create tank1 /dev/disk2
+zfs create tank1/ds1
+
+hdutils detach /dev/disk2
+```
+
+
 <!--
 ```bash
 ```
