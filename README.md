@@ -71,6 +71,7 @@
 ## ArchLinux
 
 * [ArchLinuxでyayを使う, keyword:aur](doc/archlinux/yay.md)
+* [protonvpn](doc/archlinux/protonvpn.md)
 
 ## AlmaLinux
 
