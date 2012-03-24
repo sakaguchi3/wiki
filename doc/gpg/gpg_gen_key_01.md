@@ -260,12 +260,14 @@ total 12
  sub.asc
 ```
 
-秘密鍵を削除する
+秘密鍵を削除する。
+削除するときには`~/.gnupg/private-key-v1.d/<Keygrip>.key`というファイルが作られているので、このファイルを直接削除する。
 
 ```bash
-❯ gpg -K
+❯ gpg -K --with-keygrip
 sec   ed25519 2023-05-13 [C]
       02D21BFA1F68F4043D8082BEAB1D71E796186DE3
+      Keygrip = 926F02177E5962792C2778D8AD6B2DEACF157C36
 uid           [ultimate] your name <a@example.com>
 ssb   ed25519 2023-05-13 [S]
 ssb   cv25519 2023-05-13 [E]
@@ -281,29 +283,6 @@ ssb   cv25519 2023-05-13 [E]
 ```
 
 `#` がついているので、秘密鍵が削除されていることが確認できる。
-
-## 実験が終わったので不要な鍵を削除する
-
-```bash
-❯ gpg -K
-sec   ed25519 2023-05-13 [C]
-      02D21BFA1F68F4043D8082BEAB1D71E796186DE3
-uid           [ultimate] your name <a@example.com>
-ssb   ed25519 2023-05-13 [S]
-ssb   cv25519 2023-05-13 [E]
-
-❯ gpg --delete-secret-keys 02D21BFA1F68F4043D8082BEAB1D71E796186DE3
-gpg (GnuPG) 2.2.41; Copyright (C) 2022 g10 Code GmbH
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-
-
-sec  ed25519/AB1D71E796186DE3 2023-05-13 your name <a@example.com>
-
-Delete this key from the keyring? (y/N) y
-This is a secret key! - really delete? (y/N) y
-❯ gpg -K
-```
 
 ## 参考
 
