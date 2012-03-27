@@ -26,6 +26,7 @@
 
 ## linux
 
+* [openconnect](doc/linux/openconnect.md)
 * [時刻同期 - ubuntu, manjaro](doc/linux/timedatectl.md)
 * [btrfs - scrub](doc/linux/btrfs_scrub.md)
 * [sudoers](doc/linux/sudoers.md)
