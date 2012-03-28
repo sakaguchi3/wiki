@@ -308,4 +308,4 @@ This is a secret key! - really delete? (y/N) y
 ## 参考
 
 * [GPGで主鍵と副鍵を作成する - Carpe Diem](https://christina04.hatenablog.com/entry/create-gpg-master-key-and-subkey)
-* [【令和最新版】PGP鍵の作り方から管理方法、Git Commitへの署名まで](<https://qiita.com/shun-shobon/items/a944416bebb6207016fb> #Qiita @shun_shobonより )
+* [【令和最新版】PGP鍵の作り方から管理方法、Git Commitへの署名まで](https://qiita.com/shun-shobon/items/a944416bebb6207016fb)
