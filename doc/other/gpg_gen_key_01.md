@@ -73,8 +73,8 @@ We need to generate a lot of random bytes. It is a good idea to perform
 some other action (type on the keyboard, move the mouse, utilize the
 disks) during the prime generation; this gives the random number
 generator a better chance to gain enough entropy.
-gpg: directory '/home/fox.linux/.gnupg/openpgp-revocs.d' created
-gpg: revocation certificate stored as '/home/fox.linux/.gnupg/openpgp-revocs.d/02D21BFA1F68F4043D8082BEAB1D71E796186DE3.rev'
+gpg: directory '/home/<username>.linux/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/<username>.linux/.gnupg/openpgp-revocs.d/02D21BFA1F68F4043D8082BEAB1D71E796186DE3.rev'
 public and secret key created and signed.
 
 pub   ed25519 2023-05-13 [C]
@@ -207,7 +207,7 @@ gpg> save
 
 ```bash
 gpg -K --with-subkey-fingerprints
-/home/fox.linux/.gnupg/pubring.kbx
+/home/<username>.linux/.gnupg/pubring.kbx
 ----------------------------------
 sec   ed25519 2023-05-13 [C]
       02D21BFA1F68F4043D8082BEAB1D71E796186DE3
@@ -255,17 +255,15 @@ Is this okay? (y/N) y
 ```bash
 ❯ ll
 total 12
--rw------- 1 fox fox 1369 May 13 02:08 master.asc
--rw------- 1 fox fox  288 May 13 02:10 revoke.asc
--rw------- 1 fox fox 1268 May 13 02:08 sub.asc
+ master.asc
+ revoke.asc
+ sub.asc
 ```
 
 秘密鍵を削除する
 
 ```bash
 ❯ gpg -K
-/home/fox.linux/.gnupg/pubring.kbx
-----------------------------------
 sec   ed25519 2023-05-13 [C]
       02D21BFA1F68F4043D8082BEAB1D71E796186DE3
 uid           [ultimate] your name <a@example.com>
@@ -275,8 +273,6 @@ ssb   cv25519 2023-05-13 [E]
 ❯ rm ~/.gnupg/private-keys-v1.d/926F02177E5962792C2778D8AD6B2DEACF157C36.key
 
 ❯ gpg -K
-/home/fox.linux/.gnupg/pubring.kbx
-----------------------------------
 sec#  ed25519 2023-05-13 [C]
       02D21BFA1F68F4043D8082BEAB1D71E796186DE3
 uid           [ultimate] your name <a@example.com>
@@ -290,8 +286,6 @@ ssb   cv25519 2023-05-13 [E]
 
 ```bash
 ❯ gpg -K
-/home/fox.linux/.gnupg/pubring.kbx
-----------------------------------
 sec   ed25519 2023-05-13 [C]
       02D21BFA1F68F4043D8082BEAB1D71E796186DE3
 uid           [ultimate] your name <a@example.com>
