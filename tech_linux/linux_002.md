@@ -5,7 +5,7 @@
 2TBを超える場合はfdiskじゃだめだったので、partedを使う。
 
 ```shell
-fox@selene /mnt % sudo parted /dev/sda
+<username>@<hostname> /mnt % sudo parted /dev/sda
 GNU Parted 3.2
 Using /dev/sda
 Welcome to GNU Parted! Type 'help' to view a list of commands.
@@ -38,7 +38,7 @@ Information: You may need to update /etc/fstab.
 ## format
 
 ```
-fox@selene /mnt % sudo   mkfs.xfs /dev/sda1
+<username>@<hostname> /mnt % sudo   mkfs.xfs /dev/sda1
 meta-data=/dev/sda1              isize=256    agcount=4, agsize=183141568 blks
          =                       sectsz=512   attr=2, projid32bit=1
          =                       crc=0        finobt=0
@@ -51,7 +51,7 @@ log      =internal log           bsize=4096   blocks=357698, version=2
 
 ## uuid取得
 ```shell
-fox@selena sudo mount /dev/sda1 /mnt/mountpoint
-fox@selena sudo blkid
+<username>@<hostname> sudo mount /dev/sda1 /mnt/mountpoint
+<username>@<hostname> sudo blkid
 /dev/sda1: UUID="XXXX-XXXX" TYPE="xfs" PARTLABEL="part00000" PARTUUID="XXXX" 
 ```

@@ -5,7 +5,7 @@
 
 ```bash
 user@server:~:0:% sudo /usr/bin/certbot-auto renew   --post-hook "sudo systemctl reload apache2"
-[sudo] password for fox:
+[sudo] password for <username>:
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
