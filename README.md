@@ -5,6 +5,7 @@
 * [openssl - ファイルの暗号化, 共通鍵方式](doc/other/openssl_enc_file.md)
 * [openssl - ファイルの暗号化, 公開鍵方式](doc/other/openssl_enc_file2.md)
 * [openssl - ファイルの暗号化, smime](doc/other/openssl_enc_file3.md)
+* [openssl 秘密鍵のパスワードを変更する](doc/openssl/openssl_change_passwd.md)
 * [gpg - master key, sub key の作成](doc/other/gpg_gen_key_01.md)
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
 * [gpg - 鍵のimport/export](doc/other/gpg_import_key.md)
