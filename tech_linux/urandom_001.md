@@ -17,6 +17,10 @@ cat /dev/random | base64 | fold -w 32 | head -n 50
 cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 16 | head -n 2 | sort | uniq
 ```
 
+#### エラーが起きる場合はこっちでやってみる
+```bash
+cat /dev/urandom | LC_CTYPE=C tr -dc "[:alnum:]" | fold -w 24 | head -n 20
+```
 
 ## base64作成 
 
