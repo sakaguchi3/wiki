@@ -39,6 +39,7 @@
 * [AlmaLinux8.0 - 特定のプロセスだけsudoを許可したい](almalinux/almalinux_sudo.md)
 * [AlmaLinux8.0 - mysql clientのインストール](almalinux/almalinux_mysql.md)
 * [AlmaLinux8.0 - tomcat catalina.outで文字化けが発生する](almalinux/almalinux_tomcat9_trouble.md)
+* [AlmaLinux8.0 - コマンドの実行結果を英語(LANG=C)にする](almalinux/almalinux_lang.md)
 
 
 
