@@ -102,6 +102,7 @@
 * [Rails - 環境変数](tech/rails_001.md)
 * [growi - centos7でgrowi(crowi)をセットアップ](tech/growi_001.md)
 * [nginx - urlパターンマッチング&グループング解析してその値を変数としてproxy passに渡したい](tech_apache/nginx01.md)
+* [nginx - start, stop](tech_apache/nginx02.md)
 * [apache - アクセスコントロール](tech_apache/apache_05.md)
 * [apache - crowi plusのセットアップ @Ubuntu](tech_apache/apache_01.md)
 * [apache - redmineをインストール @CentOS7](tech_apache/apache_07.md)
