@@ -35,6 +35,7 @@
 * [MySQL - aws rds mysqlでdumpデータをimportする](tech_db/aws_rds_mysql_restore.md)
 * [MySQL実行時に `(1114, "The table '/rdsdbdata/tmp/#sqlxxxxxxxxxx' is full")` というエラーが出た ](tech_db/aws_rds_mysql_1.md)
 * [MySQL - 権限設定](tech_db/msyql_010.md)
+* [MySQL - mysql8でパスワードの変更, passwd](tech_db/msyql_014.md)
 * [MySQL - Database初期設定](tech_db/msyql_001.md)
 * [MySQL - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech_db/msyql_002.md)    
 * [MySQL - Table定義変更](tech_db/msyql_009.md)    
