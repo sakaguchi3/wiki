@@ -14,7 +14,7 @@ echo ${random}
 
 ## java
 
-```java11
+```java
 	public static String randAlphabetic(int len) {
 		final var alphabetUpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -33,9 +33,9 @@ echo ${random}
 
 [https://github.com/sakaguchi3/learnJava/...](https://github.com/sakaguchi3/learnJava/blob/be97103363ff4e761d69e296438b743397356db3/jbatch002/src/main/java/com/github/sakaguchi3/util/UtilRandom.java#L57-L70)
 
+## python
 
-
-```python3
+```python
 def random_alphanumeric(length: int) -> str:
     import random
     import string
@@ -49,14 +49,4 @@ def random_alphanumeric(length: int) -> str:
 
 
 
-
-# numeric([0-9])
-
-
-## bash
-
-```bash
-echo $RANDOM
-> 27600
-```
 
