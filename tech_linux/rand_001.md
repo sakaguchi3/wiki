@@ -20,6 +20,7 @@ echo ${random}
 
 		final var alphabetFull = alphabetUpperCase + alphabetUpperCase.toLowerCase();
 		final var stringLen = alphabetFull.length();
+		final var RAND = = ThreadLocalRandom.current();
 
 		var sb = new StringBuilder(len);
 		for (int i = 0; i < len; i++) {
