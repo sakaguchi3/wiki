@@ -4,14 +4,20 @@
 
 # 必要なライブラリを用意する
 
+ディレクトリ作成
 
 ```
 mkdir deploy
 cd deploy
-vim hoge.py
+touch hoge.py
+```
 
-pip install  python-dateutil -t ./
-pip install  slack_sdk -t ./
+ライブラリインポート
+```
+pip3 install -r requirements.txt -t ./
+```
 
-zip -r a.zip *
+デプロイ作成
+```
+zip -r ../x.zip *
 ```

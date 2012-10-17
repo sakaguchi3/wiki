@@ -33,6 +33,7 @@
 * [pythonのバージョンを切り替える - pyenv @ubuntu18.04](tech_linux/pytho_001.md)
 * [aws lambda - pythonデプロイの作成](tech_linux/pytho_002.md)
 * [MySQL - aws rds mysqlでdumpデータをimportする](tech_db/aws_rds_mysql_restore.md)
+* [MySQL実行時に `(1114, "The table '/rdsdbdata/tmp/#sqlxxxxxxxxxx' is full")` というエラーが出た ](tech_db/aws_rds_mysql_1.md)
 * [MySQL - 権限設定](tech_db/msyql_010.md)
 * [MySQL - Database初期設定](tech_db/msyql_001.md)
 * [MySQL - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech_db/msyql_002.md)    
