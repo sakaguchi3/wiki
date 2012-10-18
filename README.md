@@ -218,12 +218,7 @@
     * [dropboxで画像をインライン化する](tech/dropbox_001.md)
     * [google翻訳](tech/google_001.md)
     * [pingdom - 死活監視サービス](tech/monitoring_alive_001.md)
-    * [eclipse - shorcut key](tech/eclipse_010.md) 
+    * [eclipse - shortcut key](tech/eclipse_010.md) 
     * [intellij - shortcut key](tech/intellij_001.md)
 
-
-# 他
-
-* [他](index2.md)
-
-     
+    
