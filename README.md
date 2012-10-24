@@ -33,7 +33,7 @@
 
 * [memo](tech_linux/memo_001.md)
 * [pythonのバージョンを切り替える - pyenv @ubuntu18.04](tech_linux/pytho_001.md)
-* [MySQL - aws mysqlでdumpデータをimportする](tech_db/aws_rds_mysql_restore.md)
+* [MySQL - aws rds mysqlでdumpデータをimportする](tech_db/aws_rds_mysql_restore.md)
 * [MySQL - 権限設定](tech_db/msyql_010.md)
 * [MySQL - Database初期設定](tech_db/msyql_001.md)
 * [MySQL - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech_db/msyql_002.md)    
