@@ -37,24 +37,9 @@ git clone https://github.com/weseek/growi-docker-compose.git growi
 
 設定
 
-```docker-compose.yml
-#  docker-compose.yml
-
-     ports:
-       - 3000:3000   # wan公開
-....
-     environment:
-       - PASSWORD_SEED=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa # 適当に変更
-       - FILE_UPLOAD=local     # 画像をuploadできるようにする
+```yml
+# docker-compose.yml
        - MATHJAX=1             # 数式を使えるようにする
-```
-
-```
-   elasticsearch:
-   ...
-     environment:
-       - bootstrap.memory_lock=true
-       - "ES_JAVA_OPTS=-Xms2gm -Xmx5g"  # メモリに余裕があれば増やす
 ```
 
 起動
@@ -63,6 +48,11 @@ cd /opt/growi
 docker-compose up -d # 起動
 docker-compose stop # 停止
 ```
+
+
+http://localhost:3000/ にアクセスして繋がればおｋ
+
+![](./file/growi_001/a.png)
 
 
 
