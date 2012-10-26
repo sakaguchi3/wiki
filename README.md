@@ -11,9 +11,6 @@
 
 * [vim - 備忘録](tech/vim_001.md)
 * [git - 備忘録](tech_git/git_0001.md)
-* [技術備忘録](tech/dev_001.md)          
-* [eclipse - shorcut key](tech/eclipse_010.md)    
-* [intellij - shortcut key](tech/intellij_001.md)
 
 
 
@@ -214,6 +211,8 @@
     * [dropboxで画像をインライン化する](tech/dropbox_001.md)
     * [google翻訳](tech/google_001.md)
     * [pingdom - 死活監視サービス](tech/monitoring_alive_001.md)
+    * [eclipse - shorcut key](tech/eclipse_010.md) 
+    * [intellij - shortcut key](tech/intellij_001.md)
 
 
 # 他
