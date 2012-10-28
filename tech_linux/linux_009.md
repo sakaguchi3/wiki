@@ -1,6 +1,14 @@
 # find - マッチするものを削除したい
 
 
+### dry-run
+
+`-p`: 確認するだけで実際には実行されない
+
+```bash
+find /usr/log -type f | xargs -p rm -fv
+```
+
 ### 中身確認
 
 ```bash
@@ -24,7 +32,16 @@ $find . -type f -name '*.xml' -ctime +30 -exec rm -f {} \;
 $find . -type f -name '*.xml' -ctime +30 | xargs rm -f | tee -a log/rm.log
 ```
 
-### xargs
+### xargsの引数にわたす数の最大値を指定
+
+```bash
+find . '*.tsv' | xargs -n 10 rm -rf
+```
+
+`-n`: 一度に渡す引数の数を指定する
+
+
+### 引数の場所を指定する 
 
 ```bash
 % find . -type f -not -name 'archive' -and  -not -name 'tmp.txt'  | \
