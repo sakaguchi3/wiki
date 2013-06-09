@@ -86,6 +86,7 @@
 * [ssh - ssh_confを設定](tech/ssh_02.md)    
 * [ssh - ユーザごとに接続ipを制限する](tech/ssh_03.md)
 * [ssh - 鍵作成関連](tech/ssh_04.md)    
+* [ssh - sftp-only userの作成](tech/ssh_06.md)
 * [nmap](tech/nmap_0001.md)
 * [regex](tech/regex_0001.md)
 * [php - fuelphp ORM](tech/php_01.md)
