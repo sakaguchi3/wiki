@@ -22,6 +22,6 @@ openssl req \
 
 ## 参考
 
-* https://weblabo.oscasierra.net/openssl-gencert-1/
+* <https://weblabo.oscasierra.net/openssl-gencert-1/>
 * 便利ツール
   * [FujiSSL toolbox / CSR・秘密鍵作成](https://cryptoreport.fujissl.jp/csrGenerateCommand.php)
