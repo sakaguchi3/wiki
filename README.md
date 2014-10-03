@@ -27,6 +27,8 @@
 
 * [時刻同期 - ubuntu, manjaro](doc/linux/timedatectl.md)
 * [btrfs - scrub](doc/linux/btrfs_scrub.md)
+* [sudoers](doc/linux/sudoers.md)
+* [useradd, ユーザの追加](doc/linux/useradd.md)
 
 ## git
 
