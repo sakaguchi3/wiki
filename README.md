@@ -29,6 +29,7 @@
 * [btrfs - scrub](doc/linux/btrfs_scrub.md)
 * [sudoers](doc/linux/sudoers.md)
 * [useradd, ユーザの追加](doc/linux/useradd.md)
+* [group](doc/linux/group.md)
 
 ## git
 
