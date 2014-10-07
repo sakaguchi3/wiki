@@ -38,3 +38,9 @@ testuser1 ALL=(root) /sbin/reboot
 sudo systemctl reload httpd
 (OK)
 ```
+
+sudoができるコマンドを確認する
+
+```bash
+sudo -l -U <user>
+```
