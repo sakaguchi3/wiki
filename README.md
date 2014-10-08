@@ -70,6 +70,7 @@
 ## find
 
 * [find - rm 大量のファイルを削除](doc/find/find_rm.md)
+* [find xxxを除いて検索する - tag:exlude,除外](doc/find/find_exclude.md)
 * [find - atime, mtime, ctime](doc/find/find_time.md)
 * [find - xargs](doc/find/find_xargs.md)
 
