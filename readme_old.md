@@ -85,7 +85,6 @@
 * [ssh - コマンドtips](tech/ssh_05.md)    
 * [ssh - ポート番号変更](tech/ssh_01.md)    
 * [ssh - ssh_confを設定](tech/ssh_02.md)    
-* [ssh - ユーザごとに接続ipを制限する](tech/ssh_03.md)
 * [ssh - 鍵作成関連](tech/ssh_04.md)    
 * [ssh - sftp-only userの作成](tech/ssh_06.md)
 * [nmap](tech/nmap_0001.md)
