@@ -18,5 +18,10 @@ openssl req \
  -key $p \
  -out $c \
  -subj "/C=JP/ST=Tokyo/L=Shibuya-ku/O=your_company Ltd./OU=Security Department/CN=${h}"
-
 ```
+
+## 参考
+
+* https://weblabo.oscasierra.net/openssl-gencert-1/
+* 便利ツール
+  * [FujiSSL toolbox / CSR・秘密鍵作成](https://cryptoreport.fujissl.jp/csrGenerateCommand.php)
