@@ -13,11 +13,11 @@
 
 管理者アドレスで受信できるか確認する。
 
-* admin@xxx.co.jp
-* administrator@xxx.co.jp
-* hostmaster@xxx.co.jp
-* postmaster@xxx.co.jp
-* webmaster@xxx.co.jp
+* admin@<your_domain>
+* administrator@<your_domain>
+* hostmaster@<your_domain>
+* postmaster@<your_domain>
+* webmaster@<your_domain>
 
 管理者アドレスが使えない場合、 whois情報の設定で連絡が取れるアドレスに変更する。
 
