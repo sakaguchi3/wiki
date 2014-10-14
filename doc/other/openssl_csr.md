@@ -1,0 +1,22 @@
+# openssl csrの作成手順
+
+## 秘密鍵を作成
+
+```bash
+d="20230709"
+# your domain
+h="example.com"
+# private key
+p="${h}_${d}_secret_nopass.pem"
+# csr
+c="${h}_${d}.csr"
+
+openssl genrsa 2048 > $p
+
+openssl req \
+ -new \
+ -key $p \
+ -out $c \
+ -subj "/C=JP/ST=Tokyo/L=Shibuya-ku/O=your_company Ltd./OU=Security Department/CN=${h}"
+
+```

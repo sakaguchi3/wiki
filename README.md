@@ -17,6 +17,12 @@
 * [vim 暗号化, encrypt](doc/security/vim_encrypt.md)
 * [nvim 暗号化, encrypt](doc/security/nvim_encrypt.md)
 
+## web server
+
+* [csrの作成手順 | tag:ssl, csr, openssl](doc/other/openssl_csr.md)
+* [sslstoreで証明書を購入する手順](doc/other/ssl_store_01.md)
+* [apache, nginxでhttpsの設定 | tag:ssl, openssl](doc/other/https.md)
+
 ## linux
 
 * [時刻同期 - ubuntu, manjaro](doc/linux/timedatectl.md)
@@ -68,7 +74,6 @@
 * [zstd, tag:圧縮, 解凍, compress](tech/zstd.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [lima](doc/other/lima01.md)
-* [sslstoreで証明書を購入するやり方](doc/other/ssl_store_01.md)
 
 ## aws
 
