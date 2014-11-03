@@ -26,24 +26,33 @@ key="key"
 echo 'hello' > ${forg} 
 
 openssl enc \
-  -e -aes256 -pbkdf2 \
+  -e -aes256 \
   -in ${forg} -out ${forg}.enc \
-  -kfile ${key}
+  -pass file:${key}
 ```
+
+標準入力するやり方でもできる
+
+```bash
+openssl enc \
+  -e -aes256 \
+  -in ${forg} -out ${forg}.enc \
+  -pass fd:0 < ./ ${key}
+```
+
 
 複合
 
 ```bash
 openssl enc \
-  -d -aes256 -pbkdf2 \
+  -d -aes256  \
   -in ${forg}.enc -out ${forg}.dec \
-  -kfile ${key}
+  -pass file:${key}
 
 sha256sum file*   
 f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt
 f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt.dec
 ```
-
 
 ## パスワードを使って暗号化
 
@@ -51,7 +60,7 @@ f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt.dec
 
 ```bash
 openssl enc \
-  -e -aes256 -pbkdf2 \
+  -e -aes256  \
   -in ${forg} -out ${forg}.enc
 
 enter aes-256-cbc decryption password:
@@ -62,7 +71,7 @@ enter aes-256-cbc decryption password:
 
 ```bash
 openssl enc \
-  -d -aes256 -pbkdf2 \
+  -d -aes256  \
   -in ${forg}.enc -out ${forg}.dec
 
 enter aes-256-cbc decryption password:
@@ -83,7 +92,7 @@ cat passwd.txt
 8cUnZmE7fc7d5wtRF4lp
 
 openssl enc \
-  -e -aes256 -pbkdf2 \
+  -e -aes256  \
   -in ${forg} -out ${org}.enc \
   -pass file:passwd.txt -salt 
 ```
@@ -92,7 +101,7 @@ openssl enc \
 
 ```bash
 openssl enc \
-  -d -aes256 -pbkdf2 \
+  -d -aes256  \
   -in ${forg}.enc -out ${forg}.dec \
   -pass file:passwd.txt 
 
@@ -130,12 +139,12 @@ openssl enc \
 
 ```bash
 docker run -it --rm -v $(pwd):/w \
-  frapsoft/openssl enc -e -aes256 -pbkdf2 \
+  frapsoft/openssl enc -e -aes256  \
   -in /w/file \
   -out /w/file.enc
 
 docker run -it --rm -v $(pwd):/w \
-  frapsoft/openssl enc -d -aes256 -pbkdf2 \
+  frapsoft/openssl enc -d -aes256 \
   -in /w/file.enc \
   -out /w/file.dec
 ```
