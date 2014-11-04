@@ -19,9 +19,9 @@
 
 ## web server
 
-* [csrの作成手順 | tag:ssl, csr, openssl](doc/other/openssl_csr.md)
+* [csrの作成手順 - tag:ssl, csr, openssl](doc/other/openssl_csr.md)
 * [sslstoreで証明書を購入する手順](doc/other/ssl_store_01.md)
-* [apache, nginxでhttpsの設定 | tag:ssl, openssl](doc/other/https.md)
+* [apache, nginxでhttpsの設定 - tag:ssl, openssl](doc/other/https.md)
 
 ## linux
 
@@ -71,7 +71,7 @@
 
 ## その他
 
-* [zstd, tag:圧縮, 解凍, compress](tech/zstd.md)
+* [zstd - tag:圧縮, 解凍, compress](tech/zstd.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [lima](doc/other/lima01.md)
 
