@@ -27,7 +27,6 @@ openssl req \
 
 `-nodes`: without pass phrase  
 
-
 secret keyでcsrに署名してオレオレ証明書を作成。
 
 ```bash
@@ -37,6 +36,19 @@ openssl x509  \
   -in $csr \
   -out $crt
 
+```
+
+## aa
+
+
+```bash
+openssl req  \
+  -new  \
+  -x509  \
+  -key key.pem  \
+  -out cert.pem  \
+  -days 999999  \
+  -subj /CN="Enc"
 ```
 
 ## 暗号化
