@@ -4,54 +4,26 @@
 
 ```bash
 # secret key
-S="key_secret.pem"
-
-# csr
-csr="csr.pem"
-
-# certification
-crt="cert.pem"  
+secret1="key_secret.pem"
+# 証明書
+cert1="cert.pem"  
 ```
-
-秘密鍵, csrの作成
 
 ```bash
 openssl req \
+  -x509  \
   -nodes \
   -newkey rsa:2048 \
-  -keyout $S \
-  -subj /CN="TEST" \
-  -out $csr
-
-```
-
-`-nodes`: without pass phrase  
-
-secret keyでcsrに署名してオレオレ証明書を作成。
-
-```bash
-openssl x509  \
-  -req  \
-  -signkey $S \
-  -in $csr \
-  -out $crt
-
-```
-
-## aa
-
-
-```bash
-openssl req  \
-  -new  \
-  -x509  \
-  -key key.pem  \
-  -out cert.pem  \
+  -subj /CN="Enc" \
   -days 999999  \
-  -subj /CN="Enc"
+  -keyout "$secret1" \
+  -out "$cert1"
+
 ```
 
 ## 暗号化
+
+ダミーファイル作成
 
 ```bash
 fallocate -l 1M dummy.org
@@ -74,7 +46,7 @@ openssl smime \
   -outform DER \
   -in $f_org \
   -out $f_enc \
-  $crt
+  $cert1
 
 ```
 
@@ -85,7 +57,7 @@ openssl smime \
   -decrypt \
   -inform DER \
   -in $f_enc \
-  -inkey $S \
+  -inkey \$secret1 \
   -out $f_dec
 
 sha1sum dummy.*
