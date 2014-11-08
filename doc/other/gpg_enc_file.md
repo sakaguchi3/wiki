@@ -21,6 +21,12 @@ sign & encrypt
 gpg -e -r <fingerprint or email> <file>
 ```
 
+compress levelを指定, no compression
+
+```bash
+gpg -e --compress-level 0 -r <fingerprint or email> <file>
+```
+
 sign & encrypt
 
 ```bash
