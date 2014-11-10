@@ -34,8 +34,8 @@ openssl enc \
 複合
 
 ```bash
-openssl aes-256-cbc \
-  -d -pbkdf2 \
+openssl enc \
+  -d -aes256 -pbkdf2 \
   -in ${forg}.enc -out ${forg}.dec \
   -kfile ${key}
 
@@ -61,8 +61,8 @@ enter aes-256-cbc decryption password:
 複合
 
 ```bash
-openssl aes-256-cbc \
-  -d -pbkdf2 \
+openssl enc \
+  -d -aes256 -pbkdf2 \
   -in ${forg}.enc -out ${forg}.dec
 
 enter aes-256-cbc decryption password:
@@ -91,8 +91,8 @@ openssl enc \
 復号化
 
 ```bash
-openssl aes-256-cbc \
-  -d  -pbkdf2 \
+openssl enc \
+  -d -aes256 -pbkdf2 \
   -in ${forg}.enc -out ${forg}.dec \
   -pass file:passwd.txt 
 
@@ -120,8 +120,8 @@ openssl enc \
 復号化
 
 ```bash
-openssl aes-256-cbc \
-  -d  \
+openssl enc \
+  -d  -aes256 \
   -iv $iv -K $key \
   -in ${forg}.enc -out ${forg}.dec 
 ```
@@ -130,14 +130,14 @@ openssl aes-256-cbc \
 
 ```bash
 docker run -it --rm -v $(pwd):/w \
-  frapsoft/openssl enc -aes-256-cbc -e -salt \
+  frapsoft/openssl enc -e -aes256 -pbkdf2 \
   -in /w/file \
   -out /w/file.enc
 
 docker run -it --rm -v $(pwd):/w \
-  frapsoft/openssl enc -aes-256-cbc -d \
+  frapsoft/openssl enc -d -aes256 -pbkdf2 \
   -in /w/file.enc \
-  -out /w/file
+  -out /w/file.dec
 ```
 
 ## openssl1.0.2から1.1.0に変えたら古いファイルが復号化できなくなったときの対処法
@@ -145,7 +145,7 @@ docker run -it --rm -v $(pwd):/w \
 1.1.0でdigest関数がmd5からsha1に変わったためエラーが起きるようになう。
 
 ```bash
-openssl enc -d -aes-256-cbc -pass file:/passwd.txt \
+openssl enc -d -aes256 -pbkdf2 -pass file:/passwd.txt \
  -m md5 \
  -in ${forg} \
  -out ${fdec} 
