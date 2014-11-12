@@ -27,7 +27,7 @@ echo 'hello' > ${forg}
 
 openssl enc \
   -e -aes256 -pbkdf2 \
-  -in ${forg} -out ${fenc} \
+  -in ${forg} -out ${forg}.enc \
   -kfile ${key}
 ```
 
@@ -36,14 +36,13 @@ openssl enc \
 ```bash
 openssl aes-256-cbc \
   -d -pbkdf2 \
-  -in ${forg}.enc -out ${fdec} \
+  -in ${forg}.enc -out ${forg}.dec \
   -kfile ${key}
 
 sha256sum file*   
 f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt
 f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt.dec
 ```
-
 
 
 ## パスワードを使って暗号化
@@ -53,7 +52,7 @@ f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt.dec
 ```bash
 openssl enc \
   -e -aes256 -pbkdf2 \
-  -in ${forg} -out ${fenc} 
+  -in ${forg} -out ${forg}.enc
 
 enter aes-256-cbc decryption password:
 8cUnZmE7fc7d5wtRF4lp
@@ -64,7 +63,7 @@ enter aes-256-cbc decryption password:
 ```bash
 openssl aes-256-cbc \
   -d -pbkdf2 \
-  -in ${fenc} -out ${fdec}
+  -in ${forg}.enc -out ${forg}.dec
 
 enter aes-256-cbc decryption password:
 8cUnZmE7fc7d5wtRF4lp
@@ -85,7 +84,7 @@ cat passwd.txt
 
 openssl enc \
   -e -aes256 -pbkdf2 \
-  -in ${forg} -out ${fenc} \
+  -in ${forg} -out ${org}.enc \
   -pass file:passwd.txt -salt 
 ```
 
@@ -94,7 +93,7 @@ openssl enc \
 ```bash
 openssl aes-256-cbc \
   -d  -pbkdf2 \
-  -in ${fenc} -out ${fdec} \
+  -in ${forg}.enc -out ${forg}.dec \
   -pass file:passwd.txt 
 
 sha256sum file.txt file.txt.dec 
@@ -102,7 +101,31 @@ f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt
 f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt.dec
 ```
 
-  
+## iv, keyを直接指定する
+
+```bash
+key=$(hexdump -vn16 -e'4/4 "%08X" 1 "\n"' /dev/urandom)
+iv=$(hexdump -vn16 -e'4/4 "%08X" 1 "\n"' /dev/urandom)
+```
+
+暗号化
+
+```bash
+openssl enc \
+  -e -aes256 \
+  -iv $iv -K $key \
+  -in ${forg} -out ${forg}.enc
+```
+
+復号化
+
+```bash
+openssl aes-256-cbc \
+  -d  \
+  -iv $iv -K $key \
+  -in ${forg}.enc -out ${forg}.dec 
+```
+
 ## dockerのopensslを使う
 
 ```bash
