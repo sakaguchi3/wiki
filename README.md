@@ -9,6 +9,7 @@
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
 * [gpg - 鍵のimport/export](doc/other/gpg_import_key.md)
 * [7z](doc/compress/7z.md)
+* [rar](doc/compress/rar.md)
 * [shred - 完全にファイルを削除する](tech_linux/shred_001.md)
 * [dd - 適当なファイルを作成](tech_linux/dd_001.md)
 * [乱数/パスワード生成 - rand, passwd](tech_linux/urandom_001.md)
