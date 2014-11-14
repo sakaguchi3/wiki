@@ -59,7 +59,7 @@ gpg -d <file>.gpg -o <output_file_name>
 
 ## 共通鍵暗号
 
-### synmmetric encryption
+### symmetric encryption
 
 ```bash
 gpg -c file.txt
@@ -70,7 +70,7 @@ file.txt
 file.txt.gpg
 ```
 
-### synmmetric decrypt
+### symmetric decrypt
 
 ```bash
 gpg file.txt.gpg 
