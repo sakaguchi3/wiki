@@ -11,9 +11,16 @@ gpg -K
 K="1212AAAA"
 ```
 
+ascii形式でexport
 
 ```bash
 gpg -a -o secret.asc --export-secret-keys $K
+```
+
+binaryでexport
+
+```bash
+gpg -o secret.bin --export-secret-keys $K
 ```
 
 master key / sub key を分けている人。  
@@ -21,6 +28,12 @@ subkeyのみexport。
 
 ```bash
 gpg -a -o secret.asc --export-secret-subkey $K
+```
+
+binary
+
+```bash
+gpg -o secret.bin --export-secret-subkey $K
 ```
 
 master keyを含める。
@@ -34,7 +47,6 @@ gpg -a -o secret.asc --export-secret-keys $K
 ```bash
 gpg -a -o pub.asc --export
 ```
-
 
 ## import
 
