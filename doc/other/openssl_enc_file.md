@@ -8,15 +8,27 @@
 openssl rand 214 > key 
 ```
 
+環境変数
+
+```bash
+forg='file.txt'
+fenc='file.enc'
+fdec='file.txt.dec'
+```
+
 暗号
 
 ```bash
-echo 'hello' > file.txt 
+key="key"
+```
+
+```bash
+echo 'hello' > ${forg} 
 
 openssl enc \
   -e -aes256 -pbkdf2 \
-  -in file.txt -out file.txt.enc \
-  -kfile key
+  -in ${forg} -out ${fenc} \
+  -kfile ${key}
 ```
 
 複合
@@ -24,8 +36,8 @@ openssl enc \
 ```bash
 openssl aes-256-cbc \
   -d -pbkdf2 \
-  -in file.txt.enc -out file.txt.dec \
-  -kfile key
+  -in ${forg}.enc -out ${fdec} \
+  -kfile ${key}
 
 sha256sum file*   
 f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt
@@ -41,7 +53,7 @@ f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  file.txt.dec
 ```bash
 openssl enc \
   -e -aes256 -pbkdf2 \
-  -in file.txt -out file.txt.enc 
+  -in ${forg} -out ${fenc} 
 
 enter aes-256-cbc decryption password:
 8cUnZmE7fc7d5wtRF4lp
@@ -52,16 +64,15 @@ enter aes-256-cbc decryption password:
 ```bash
 openssl aes-256-cbc \
   -d -pbkdf2 \
-  -in file.txt.enc -out file2.txt.dec 
+  -in ${fenc} -out ${fdec}
 
 enter aes-256-cbc decryption password:
 8cUnZmE7fc7d5wtRF4lp
 
-shasum file.txt file2.txt.dec 
+shasum file.txt file.txt.dec 
 4e1243bd22c66e76c2ba9eddc1f91394e57f9f83  file.txt
-4e1243bd22c66e76c2ba9eddc1f91394e57f9f83  file2.txt.dec
+4e1243bd22c66e76c2ba9eddc1f91394e57f9f83  file.txt.dec
 ```
-
 
 ## ファイルからパスワードを読み込む
 
@@ -74,7 +85,7 @@ cat passwd.txt
 
 openssl enc \
   -e -aes256 -pbkdf2 \
-  -in file.txt -out file.txt.enc \
+  -in ${forg} -out ${fenc} \
   -pass file:passwd.txt -salt 
 ```
 
@@ -83,7 +94,7 @@ openssl enc \
 ```bash
 openssl aes-256-cbc \
   -d  -pbkdf2 \
-  -in file.txt.enc -out file.txt.dec \
+  -in ${fenc} -out ${fdec} \
   -pass file:passwd.txt 
 
 sha256sum file.txt file.txt.dec 
@@ -113,7 +124,7 @@ docker run -it --rm -v $(pwd):/w \
 ```bash
 openssl enc -d -aes-256-cbc -pass file:/passwd.txt \
  -m md5 \
- -in file.txt \
- -out file.txt.dec 
+ -in ${forg} \
+ -out ${fdec} 
 ```
 
