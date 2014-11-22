@@ -1,6 +1,28 @@
 # zstd - 圧縮
 
-## 圧縮
+## ディレクトリ
+
+### ディレクトリ圧縮
+
+```bash
+mkdir dir
+echo 'a'  dir/file1
+echo 'a'  dir/file2
+```
+
+```bash
+tar caf dir.tar.zst dir
+```
+
+### ディレクトリ解凍
+
+```bash
+tar xf dir.tar.zst
+```
+
+## ファイル
+
+### ファイル圧縮
 
 ```bash
 echo 'a' > file
@@ -13,22 +35,8 @@ ls -l
 file.zst
 ```
 
-ディレクトリを圧縮
-
-```bash
-mkdir dir
-echo 'a'  dir/file1
-echo 'a'  dir/file2
-
-tar caf dir.tar.zst dir
-```
-
-## 解凍
+### ファイル解凍
 
 ```bash
 zstd -d file.zst
-```
-
-```bash
-tar xf dir.tar.zst
 ```
