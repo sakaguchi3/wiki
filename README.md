@@ -63,7 +63,7 @@
 
 ## その他
 
-* [zstd | tag:圧縮, 解凍, compress](tech/zstd.md)
+* [zstd, tag:圧縮, 解凍, compress](tech/zstd.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [lima](doc/other/lima01.md)
 * [sslstoreで証明書を購入するやり方](doc/other/ssl_store_01.md)
