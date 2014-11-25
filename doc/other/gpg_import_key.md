@@ -38,6 +38,51 @@ gpg -a -o pub.asc --export
 
 ## import
 
+公開鍵
+
 ```bash
 gpg --import <key>
 ```
+
+秘密鍵
+
+```bash
+gpg --import <key>
+```
+
+このままだとunknownになるのでtrustedに変更する
+
+```bash
+gpg -K --with-keygrip --with-subkey-fingerprint
+sec   ed25519 2023-05-11 [C]
+      C932...
+uid           [unknown] name <a@example.cm>
+ssb   ed25519 2023-05-11 [S]
+      C9999
+      ...
+```
+
+```bash
+gpg --edit-key C932
+
+gpg> trust
+Your decision? 5
+
+gpg> quit 
+```
+
+```bash
+gpg -K --with-keygrip --with-subkey-fingerprint
+sec   ed25519 2023-05-11 [C]
+      C932...
+uid           [ultimate] name <a@example.cm>
+ssb   ed25519 2023-05-11 [S]
+      C9999
+      ...
+```
+
+
+<!--
+```bash
+```
+-->
