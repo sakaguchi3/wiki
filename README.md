@@ -7,6 +7,7 @@
 * [openssl - ファイルの暗号化, smime](doc/other/openssl_enc_file3.md)
 * [gpg - master key, sub key の作成](doc/other/gpg_gen_key_01.md)
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
+* [gpg - 鍵のimport/export](doc/other/gpg_import_key.md)
 * [7z](doc/compress/7z.md)
 * [shred - 完全にファイルを削除する](tech_linux/shred_001.md)
 * [dd - 適当なファイルを作成](tech_linux/dd_001.md)
