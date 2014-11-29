@@ -11,7 +11,7 @@
 * [shred - 完全にファイルを削除する](tech_linux/shred_001.md)
 * [dd - 適当なファイルを作成](tech_linux/dd_001.md)
 * [乱数/パスワード生成 - rand, passwd](tech_linux/urandom_001.md)
-* [vvim 暗号化, encrypt](doc/security/nvim_encrypt.md)
+* [vim 暗号化, encrypt](doc/security/vim_encrypt.md)
 * [nvim 暗号化, encrypt](doc/security/nvim_encrypt.md)
 
 ## linux
