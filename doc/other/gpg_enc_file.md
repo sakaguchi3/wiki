@@ -80,6 +80,30 @@ ls
 file.txt
 ```
 
+### ファイルからパスワードを読み取る
+
+```bash
+echo 'your_password' > pass
+echo 'aaa' > file
+```
+
+暗号
+
+```bash
+gpg --batch --passphrase-fd 0 -c file < pass
+```
+
+複合
+
+```bash
+gpg --batch --passphrase-fd 0 file.gpg < pass 
+```
+
+<!-- 
+```bash
+```
+-->
+
 ## gpg-agentをkill
 
 ```bash
