@@ -1,6 +1,6 @@
 # gpgでファイルの暗号化
 
-# 公開鍵暗号
+## 公開鍵暗号
 
 importされている鍵リストを表示
 
@@ -13,24 +13,36 @@ uid           [ultimate] <example> <example@example.com>
 sub   cv25519 2023-05-09 [E] [expires: 2096-05-05]
 ```
 
-## encrypt
+### asymmetric encryption
+
+sign & encrypt
 
 ```bash
-gpg -e <fingerprint or email> <file>
+gpg -e -r <fingerprint or email> <file>
 ```
+
+sign & encrypt
+
+```bash
+gpg -e -s -r <fingerprint or email> <file>
+```
+
+example
 
 ```bash
 echo 'test' > test.txt
-gpg -e da39a3ee5e6b4b0d3255bfef95601890afd80709 test.txt
+gpg -e -r da39a3ee5e6b4b0d3255bfef95601890afd80709 test.txt
 
 ls
 test.txt
 test.txt.gpg
 ```
 
-## decrypt
+### asymmetric decryption
 
 ```bash
+rm test.txt
+
 gpg test.txt.gpg
 passwd:
 
@@ -38,9 +50,16 @@ ls
 test.txt
 ```
 
-# 共通鍵暗号
+or
 
-## encrypt
+```bash
+gpg -d <file>.gpg
+gpg -d <file>.gpg -o <output_file_name>
+```
+
+## 共通鍵暗号
+
+### synmmetric encryption
 
 ```bash
 gpg -c file.txt
@@ -51,7 +70,7 @@ file.txt
 file.txt.gpg
 ```
 
-## decrypt
+### synmmetric decrypt
 
 ```bash
 gpg file.txt.gpg 
@@ -62,9 +81,9 @@ file.txt
 ```
 
 ## gpg-agentをkill
+
 ```bash
 ps aux | grep gpg-agent
 kill ${pid}
 ```
   
- 
