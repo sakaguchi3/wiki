@@ -44,7 +44,6 @@
 
 * [Linux - 監視コマンド(sar)](tech_linux/linux_005_02.md.md)
 
-
 ## MySql8.0
 
 * [MySQL8.0 - userの権限を設定](doc/mysql/8.0/mysql8_add_user.md)
@@ -53,7 +52,7 @@
 
 * [python - venv](doc/python/venv.md)
 
-## find 
+## find
 
 * [find - rm 大量のファイルを削除](doc/find/find_rm.md)
 * [find - atime, mtime, ctime](doc/find/find_time.md)
@@ -61,6 +60,7 @@
 
 ## その他
 
+* [zstd, tag:圧縮, 解凍, compress](tech/zstd.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [lima](doc/other/lima01.md)
 * [sslstoreで証明書を購入するやり方](doc/other/ssl_store_01.md)
