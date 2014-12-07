@@ -39,6 +39,11 @@
 * [AlmaLinux8.0 - tomcat catalina.outで文字化けが発生する](doc/almalinux/almalinux_tomcat9_trouble.md)
 * [AlmaLinux8.0 - コマンドの実行結果を英語(LANG=C)にする](doc/almalinux/almalinux_lang.md)
 
+## 監視ツール
+
+* [Linux - 監視コマンド(sar)](tech_linux/linux_005_02.md.md)
+
+
 ## MySql8.0
 
 * [MySQL8.0 - userの権限を設定](doc/mysql/8.0/mysql8_add_user.md)
