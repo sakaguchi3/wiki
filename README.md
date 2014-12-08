@@ -45,7 +45,7 @@
 * [find - atime, mtime, ctime](doc/find/find_time.md)
 * [find - mv](doc/find/find_mv.md)
 
-## その他 
+## その他
 
 * [shred - 完全にファイルを削除する](tech_linux/shred_001.md)
 * [dd - 適当なファイルを作成](tech_linux/dd_001.md)

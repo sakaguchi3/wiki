@@ -31,31 +31,31 @@ firmware:
   legacyBIOS: true
 ```
 
-lima起動
+RD(rancher desktop)起動
 
 ```bash
 rdctl start
 ```
 
-コンテナを起動
+コンテナ(lima)を起動
 
 ```bash
 limactl start archlinux 
 ```
 
-limaにログイン
+コンテナにログイン
 
 ```bash
 limactl shell archlinux
 ```
 
-limaを停止
+コンテナを停止
 
 ```bash
 limactl stop archlinux
 ```
 
-limaの停止
+RDの停止
 
 ```bash
 rdctl shutdown
