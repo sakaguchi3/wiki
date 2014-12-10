@@ -54,7 +54,7 @@
 * [openssl - ファイルの暗号化, 公開鍵方式](doc/other/openssl_enc_file2.md)
 * [openssl - ファイルの暗号化, smime](doc/other/openssl_enc_file3.md)
 * [lima](doc/other/lima01.md)
-* [gpg - 公開鍵鍵の作成](doc/other/gpg_gen_key_01.md)
+* [gpg - master key, sub key の作成](doc/other/gpg_gen_key_01.md)
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [sslstoreで証明書を購入するやり方](doc/other/ssl_store_01.md)
