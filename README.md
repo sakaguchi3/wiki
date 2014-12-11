@@ -52,6 +52,7 @@
 * [乱数/パスワード生成 - rand, passwd](tech_linux/urandom_001.md)
 * [openssl - ファイルの暗号化, 共通鍵方式](doc/other/openssl_enc_file.md)
 * [openssl - ファイルの暗号化, 公開鍵方式](doc/other/openssl_enc_file2.md)
+* [openssl - ファイルの暗号化, smime](doc/other/openssl_enc_file3.md)
 * [gpg - 公開鍵鍵の作成](doc/other/gpg_gen_key_01.md)
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
 * [vim - 備忘録](tech/vim_001.md)
