@@ -60,6 +60,11 @@ shasum -a 224 file.txt file.dec
 52f1bf093f4b7588726035c176c0cdb4376cfea53819f1395ac9e6ec  file.dec
 ```
 
+## 参考
+
+* https://www.baeldung.com/linux/openssl-encrypt-large-file
+* https://www.openssl.org/docs/man3.1/man1/openssl-pkeyutl.html
+* https://opensource.com/article/21/4/encryption-decryption-openssl
 
 <!--
 
