@@ -49,7 +49,7 @@
 
 * [shred - 完全にファイルを削除する](tech_linux/shred_001.md)
 * [dd - 適当なファイルを作成](tech_linux/dd_001.md)
-* [乱数/パスワード生成 - rand, passwd](tech_linux/urandom_001.md)    
+* [乱数/パスワード生成 - rand, passwd](tech_linux/urandom_001.md)
 * [openssl - ファイルの暗号化](doc/other/openssl_enc_file.md)
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
 * [vim - 備忘録](tech/vim_001.md)
