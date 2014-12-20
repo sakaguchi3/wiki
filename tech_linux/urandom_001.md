@@ -2,7 +2,7 @@
 
 ## linux
 
-fold -w [桁数]
+fold -w [桁数] <br/>
 head -n [個数]
 
 ```bash
@@ -12,7 +12,8 @@ jh9JE21qLJx0TPz0
 ok2oRRlNGtCf93FM
 ```
 
-[数字][アルファベット]で作成する
+`[前半は数字][後半はアルファベット]` という具合に形式を指定したい
+
 ```bash
  p1=$(cat /dev/urandom| tr -dc '0-9'| fold -w 15 | head -n 1)
  p2=$(cat /dev/urandom| tr -dc 'a-z'| fold -w 15 | head -n 1)
