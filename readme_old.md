@@ -76,7 +76,6 @@
 * [sudoer周りの設定 @ CentOS7](tech_linux/sudo_0001.md)      
 * [sudoer周りの設定 @ Ubuntu18.04](tech_linux/sudo_0002.md)      
 * [linuxユーザをグループに追加](tech_linux/sudo_0003.md)
-* [dd - 巨大ファイル作成](tech_linux/dd_001.md)      
 * [tar](tech_linux/tar_001.md)      
 * [gpg- ファイル暗号](tech_linux/gpg_001.md)      
 * [shellスクリプト](tech_linux/shell_0001.md)                
