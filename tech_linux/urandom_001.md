@@ -1,36 +1,28 @@
-# 乱数/パスワード生成 | rand, passwd 
+# 乱数/パスワード生成 
 
+## linux
 
-
-## urandom | 適当なパスワードの生成
+fold -w [桁数]
+head -n [個数]
 
 ```bash
-cat /dev/random | base64 | fold -w [桁数] | head -n [生成する個数]
+cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 16 | head -n 2 
+
+jh9JE21qLJx0TPz0
+ok2oRRlNGtCf93FM
 ```
 
-``` 
-cat /dev/random | base64 | fold -w 32 | head -n 50
-```
-
-使える文字を指定する
+[数字][アルファベット]で作成する
 ```bash
-cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 16 | head -n 2 | sort | uniq
+ p1=$(cat /dev/urandom| tr -dc '0-9'| fold -w 15 | head -n 1)
+ p2=$(cat /dev/urandom| tr -dc 'a-z'| fold -w 15 | head -n 1)
+ echo "$p1$p2"
+
+812709639979279zcsvngpkdsdlccf
 ```
 
-#### エラーが起きる場合はこっちでやってみる
+## mac
+
 ```bash
 cat /dev/urandom | LC_CTYPE=C tr -dc "[:alnum:]" | fold -w 24 | head -n 20
 ```
-
-## base64作成 
-
-```bash
-openssl rand -base64 31
-```
-
-web safe にする
-
-```bash
-openssl rand -base64 31 |  tr -- '+/=' '-_ '
-``` 
-

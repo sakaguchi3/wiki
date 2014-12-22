@@ -130,7 +130,6 @@
 * [git - コミット日時を捏造](tech_git/git_0005.md)
 * [git - reset](tech_git/git_0007.md)
 * [find - マッチするものを削除したい](tech_linux/linux_009.md)    
-* [乱数/パスワード生成 - rand, passwd](tech_linux/urandom_001.md)    
 * [rsync](tech_linux/linux_010.md)    
 * [zip/unzip](tech_linux/linux_011.md)
 * [firewalld](tech_linux/linux_012.md)    
