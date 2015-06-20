@@ -30,6 +30,7 @@
 
 ## Linux
 
+* [memo](tech_linux/memo_001.md)
 * [pythonのバージョンを切り替える - pyenv @ubuntu18.04](tech_linux/pytho_001.md)
 * [MySQL - 権限設定](tech_db/msyql_010.md)
 * [MySQL - Database初期設定](tech_db/msyql_001.md)
@@ -61,6 +62,8 @@
 * [Linux - mongodbをセットアップしたときのメモ @ Ubuntu18.04](tech_linux/linux_017.md)
 * [Linux - redisをインストールしたときのメモ @ Ubuntu18.04](tech_linux/linux_020.md)
 * [Linux - php72をソースコードからインストール @ CentOS7](tech_linux/linux_022.md)
+* [Linux - rename ファイル名一括変更](tech_linux/linux_023.md)
+* [nfs - CentOS7](tech_linux/nfs_01.md)
 * [ubuntu - systemctl](tech_linux/linux_020.md)
 * [AWS - awscli で s3 を操作する@ Ubuntu18.04](tech_linux/aws_001.md)
 * [mailman - spamメールをフィルタする](tech_linux/mailman_001.md)
@@ -97,7 +100,8 @@
 * [apache - 各種情報を隠す](tech_apache/apache_0014.md)
 * [apache - redmineとslackを連携](tech_apache/apache_06.md)
 * [apache - Let's Encrypt手動更新手順 @Ubuntu](tech_apache/apache_03.md)
-* [apache - Let's Encrypt自動更新設定 @Ubuntu](tech_apache/apache_04.md)
+* [apache - Let's Encrypt自動更新 @Ubuntu](tech_apache/apache_04.md)
+* [apache - Let's Encrypt自動更新 @CentOS7 apache2.2](tech_apache/apache_11.md)
 * [apache - Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法](tech_apache/apache_10.md)
 * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
 * [openssl](tech/ssl_0001.md)
@@ -156,6 +160,9 @@
     * [java - keytoolを使ってjks証明書追加方法](tech/java_006.md)
     * [java - 証明書指定方法](tech/java_007.md)
     * [java - 証明書エラーを無理やり回避する](tech/java_008.md) 
+    * [java - guava Cache](tech/java_009.md) 
+    * [java - guava ImmutableCollection](tech/java_011.md) 
+    * [java - apache math3](tech/java_010.md) 
     * [jmeter](tech/jmeter_001.md) 
     * [servlet - HelloServlet](tech/servlet_001.md)
     * [python標準出力](tech/python_001.md)
@@ -201,12 +208,14 @@
 # 他
 
 * 物理
-    * [物理 - 宇宙に関すること](other/physhics_01.md)
-    * [物理 - 朝永振一郎](other/physhics_02.md)
+    * [物理 - memo](other/physics_03.md)
+    * [物理 - 宇宙に関すること](other/physics_01.md)
+    * [物理 - 朝永振一郎](other/physics_02.md)
     * [医学 - 飛行機の中で人の感情、認知能力、体の変化](other/medical_01.md)
 * 社会
     * [税金 - 株](other/tax_001.md)
 * 他
+    * [memo](other/other_memo_01.md)
     * [栄養](other/oher_0001.md)
     * [被告人/被告](other/oher_0002.md)
     * [結婚/入籍](other/oher_0003.md)
