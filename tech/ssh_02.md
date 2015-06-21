@@ -1,20 +1,16 @@
-# sshは鍵認証のみに制限する
+# ssh - ssh_confを設定
 
+### sshパスワード認証NG（鍵認証のみOK)
 
-### 鍵認証に制限する
-
-設定ファイル ```/etc/ssh/sshd_config```
 
 
 ```sshd_config
-# 鍵認証のみ許可にする
+$ vim /etc/ssh/sshd_config
+ 
+# passwd NG
 Match user hogehogeuser
         PasswordAuthentication  no
         PubkeyAuthentication  yes
-# 鍵もパスワードも両方NG        
-Match user root
-        PasswordAuthentication  no
-        PubkeyAuthentication  no
 ```
 
 変更内容が正しいかチェック
@@ -28,3 +24,33 @@ $ sshd -t
 ```bash
 $ systemctl reload sshd
 ```
+
+
+### sshログインNGユーザの設定
+
+```sshd_config
+$ vim /etc/ssh/sshd_config
+
+# passwd NG, 鍵認証 NG        
+Match User root
+        PasswordAuthentication  no
+        PubkeyAuthentication  no
+```
+
+
+### sftp-onlyのユーザを追加する
+
+
+```ssh
+$ vim /etc/ssh/sshd_config
+
+Match User sftp-user
+      ChrootDirectory /home/%u
+      ForceCommand internal-sftp -u 000
+      PasswordAuthentication yes
+```
+
+```bash
+$ sshd -t 
+```
+
