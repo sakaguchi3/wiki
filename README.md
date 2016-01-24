@@ -138,7 +138,8 @@
     * [java - scalaのzipみたいなのをjavaで使う](tech/java_004.md)   
     * [servlet - HelloServlet](tech/servlet_001.md)
     * [python標準出力](tech/python_001.md)
-    * [mvn](tech/mvn_001.md)
+    * [mvn1](tech/mvn_001.md)
+    * [mvn2](tech/mvn_002.md)    
     * [(memo)prog - 手続き型言語 / OOP / 関数型言語 の違い(?)](tech/prog_0001.md)
 * ツール
     * [Dropboxの画像ファイルをHTML内に埋め込む](other/dropbox_001.md)
