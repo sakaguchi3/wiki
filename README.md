@@ -50,6 +50,7 @@
 * [HBase - 入門](tech/hbase_002.md)                    
 * [redis - redis入門](tech_db/redis_001.md)
 * [bash script](tech_linux/bash_001.md)
+* [jq](tech_linux/jq_0001.md)    
 * [Linux - Time Zone変更](tech_linux/linux_001.md)    
 * [Linux - 監視コマンド(vmstat/dstat/sar)](tech_linux/linux_005.md)    
 * [Linux - webバックアップ・リストア](tech_linux/linux_006.md)    
