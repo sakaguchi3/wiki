@@ -70,6 +70,7 @@
 * [sudoer周りの設定 @ Ubuntu18.04](tech_linux/sudo_0002.md)      
 * [linuxユーザをグループに追加](tech_linux/sudo_0003.md)
 * [find](tech_linux/linux_009.md)    
+* [find](tech_linux/find_001.md)    
 * [rsync](tech_linux/linux_010.md)    
 * [zip/unzip](tech_linux/linux_011.md)
 * [firewalld](tech_linux/linux_012.md)    
