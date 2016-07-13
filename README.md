@@ -101,6 +101,8 @@
     * [税金 - 株](other/tax_001.md)
 * 他
     * [栄養](other/oher_0001.md)
+    * [被告人/被告](other/oher_0002.md)
+    * [結婚/入籍](other/oher_0003.md)
       
    
      
