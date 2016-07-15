@@ -24,11 +24,17 @@ DB > collection > document > field
 
 #### 接続
 
+
 ```bash
 # shell上で実行
 $ mongo
 ```
 
+リモートのmongodbサーバに接続する場合
+
+```bash
+mongo --host mongodb.localdomain
+```
 
 
 #### DB作成/削除
