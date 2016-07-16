@@ -20,7 +20,7 @@
         * [scala - 競技プログラミング](tech/scala_03.md)
         * [java - ジェネリクス](tech/java_001.md)
         * [java(memo) - 内部クラス(inner class)](tech/java_002.md)
-        * [servlet - HelloServlet](tech/servlet_0ｓｈ01.md)
+        * [servlet - HelloServlet](tech/servlet_001.md)
         * [(memo)prog - 手続き型言語 / OOP / 関数型言語 の違い(?)](tech/prog_0001.md)
     * ツール
         * [winscp - keep aliveを送る](tech/win_001.md)
