@@ -3,20 +3,29 @@
 ### boxファイルのexport
 
 ```bash
-$vagrant package hogehogeimage --output hogehogeimage.box
+$vagrant package 
 ```
 
+package.box ってファイルが出来上がる．  
+Vagrantfileは作成されない． 
 
 
 ### boxファイルのimport
 
 ```
-$vagrant box add hogehogeimage hogehogeimage.box
-$vagrant box list
-$vagrant init hogehogeimage
+$vagrant box add vg2 package.box
+$vagrant box list   # 追加されているか確認する
+$vagrant init vg2   # Vagrantfileが作成される
 $vagrant up
 ```
 
+
+
+### 削除
+
+```bash
+vagrant box remove vg2
+```
 
 ### 参考
 http://vdeep.net/vagrant-package

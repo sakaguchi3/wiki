@@ -8,7 +8,7 @@ sudo adduser hogehoge
 ### ユーザ削除
 ホームディレクトリも削除。
 ```
-sudo deluser hogehoge -r
+sudo userdel hogehoge -r
 ```
 
 
