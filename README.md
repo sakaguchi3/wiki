@@ -87,14 +87,16 @@
     * あとで確認する項目        
         * [FuelPHP - bootstrap配下の環境設定ファイル](later/later_01.md)
 * コンピュータサイエンス
-    * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](science/cs_01.md)
-    * [アソシエーションルールを用いたアイテム推薦におけるアイテムベースとユーザベースの性能比較](science/cs_02.md)
+    * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](other/cs_01.md)
+    * [アソシエーションルールを用いたアイテム推薦におけるアイテムベースとユーザベースの性能比較](other/cs_02.md)
 * 物理
-    * [物理 - 宇宙に関すること](science/physhics_01.md)
-    * [物理 - 朝永振一郎](science/physhics_02.md)
-    * [医学 - 飛行機の中で人の感情、認知能力、体の変化](science/medical_01.md)
+    * [物理 - 宇宙に関すること](other/physhics_01.md)
+    * [物理 - 朝永振一郎](other/physhics_02.md)
+    * [医学 - 飛行機の中で人の感情、認知能力、体の変化](other/medical_01.md)
 * 社会
-    * [税金 - 株](society/tax_001.md)
+    * [税金 - 株](other/tax_001.md)
+* 他
+    * [栄養](other/oher_0001.md)
       
    
      
