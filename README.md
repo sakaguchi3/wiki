@@ -36,6 +36,7 @@
         * [MySQL - ランザクション分離レベル](tech_db/msyql_006.md)    
         * [MySQL - SQLの結果をファイルにアウトプットする](tech_db/msyql_007.md)    
         * [MySQL - Error Code: 1170. BLOB/TEXT column 'xxxx' used in key specification without a key length の対処法](tech_db/msyql_008.md)    
+        * [mongodb - mongodb入門](tech_db/mongo_001.md)    
         * [Linux - Time Zone変更](tech_linux/linux_001.md)    
         * [Linux - 監視コマンド](tech_linux/linux_05.md)    
         * [Linux - webバックアップ・リストア](tech_linux/linux_06.md)    
