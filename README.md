@@ -20,7 +20,7 @@
         * [scala - 競技プログラミング](tech/scala_03.md)
         * [java - ジェネリクス](tech/java_001.md)
         * [java(memo) - 内部クラス(inner class)](tech/java_002.md)
-        * [servlet - HelloServlet](tech/servlet_001.md)
+        * [servlet - HelloServlet](tech/servlet_0ｓｈ01.md)
         * [(memo)prog - 手続き型言語 / OOP / 関数型言語 の違い(?)](tech/prog_0001.md)
     * ツール
         * [winscp - keep aliveを送る](tech/win_001.md)
@@ -43,7 +43,7 @@
         * [Linux - CentOS7にphp5.6インストール](tech_linux/linux_003.md)
         * [Linux - cronの設定](tech_linux/linux_004.md)    
         * [Linux - ユーザの追加/削除](tech_linux/linux_007.md)    
-        * [Linux - ログインシェルの変更](tech_linux/linux_008.md)    
+        * [Linux - login shellの変更](tech_linux/linux_008.md)    
         * [Linux - find](tech_linux/linux_009.md)    
         * [Linux - rsync](tech_linux/linux_010.md)    
         * [Linux - zip/unzip](tech_linux/linux_011.md)    
