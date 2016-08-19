@@ -50,3 +50,68 @@
  arraySeq += 3 // エラー．ArraySeqは配列(?)なので、要素の追加はNG．  
 ```
 
+## 演算
+
+### 三項演算子
+
+```scala
+val k1=4 
+val k2=3
+val max = if (k1 < k2) k2 else k1
+
+```
+
+## ループ
+
+### 多重ループ
+
+```scala
+  // ネストしたループ
+  for (i <- 1 to 9) {
+    for (j <- 1 to 9) {
+      print(i * j)
+    }
+  }
+  // ネストを浅く表現できる
+  for (i <- 1 to 9; j <- 1 to 9) {
+    print(i * j)
+  }
+```
+
+### 偶数だけ表示
+
+```scala
+  for (i <- 1 to 10 if i % 2 == 0) {
+    println(i)
+  }
+  // 2, 4, 6, 8, 10
+```
+
+### break
+
+
+```scala
+  import scala.util.control.Breaks._
+  breakable {
+    for (i <- 1 to 10) {
+      if (i > 4) break // break out of the for loop
+      println(i)
+    }
+  }
+  // 1, 2, 3, 4
+```
+
+```scala
+  val searchMe = "peter piper picked a peck of pickled peppers"
+  var numPs = 0
+  for (i <- 0 until searchMe.length) {
+    breakable {
+      if (searchMe.charAt(i) != 'p') {
+        break
+      } else {
+        numPs += 1
+      }
+    }
+  }
+  println(numPs)  // 9
+```
