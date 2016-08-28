@@ -10,7 +10,7 @@
 * よくみる
     * [vim - 備忘録](tech/vim.md)     
     * [git - 備忘録](tech_git/git_0001.md)
-    * [scala - 備忘録](tech/scala.md)
+    * [scala - 備忘録](tech/scala_01.md)
 * IT技術系
     * インフラ関連
         * [DB - 権限設定](tech_db/db_010.md)
@@ -66,6 +66,7 @@
         * [MyBatis - 設定ファイル](tech/mybatis_002.md)
         * [MyBatis - bulk insert](tech/mybatis_001.md)
         * [scala - Functor/Applicative/Monad](tech/scala_02.md)
+        * [scala - 競技プログラミング](tech/scala_03.md)
         * [java - ジェネリクス](tech/java_001.md)
 * コンピュータサイエンス
     * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](science/cs_01.md)
