@@ -46,7 +46,7 @@
 ```properties
 database.hogedb.URL=jdbc:mysql://hogeserver.localdomain/hogedb?useUnicode=true&characterEncoding=utf-8
 database.fugadb.URL=jdbc:mysql://fugaserver.localdomain/fugadb?useUnicode=true&characterEncoding=utf-8
-database.UID=dbuser
+database.UID=hogeuser
 database.PWD=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ```
 
