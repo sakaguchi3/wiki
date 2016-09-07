@@ -29,6 +29,8 @@
     * [Linux - ログインシェルの変更](tech/linux_08.md)    
     * [SELinux - selinux環境下でredmineを動かす](tech/selinux_01.md)
     * [ssh - change ssh port number](tech/ssh_01.md)    
+    * [ssh - 認証方法を鍵認証に制限する](tech/ssh_02.md)    
+    * [ssh - ユーザごとにsshできるipを制限する](tech/ssh_03.md)    
     * [php - fuelphp orm](tech/php_01.md)
     * [php - fuelphp 環境変数](tech/php_02.md)
     * [apache - アクセスコントロール](tech/apache_05.md)
