@@ -27,6 +27,7 @@
         * [Linux - cronの設定](tech/linux_04.md)    
         * [Linux - ユーザの追加/削除](tech/linux_07.md)    
         * [Linux - ログインシェルの変更](tech/linux_08.md)    
+        * [Linux - findコマンド](tech/linux_09.md)    
         * [SELinux - selinux環境下でredmineを動かす](tech/selinux_01.md)
         * [ssh - change ssh port number](tech/ssh_01.md)    
         * [ssh - 認証方法を鍵認証に制限する](tech/ssh_02.md)    
