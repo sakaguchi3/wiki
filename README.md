@@ -29,6 +29,7 @@
         * [Linux - ログインシェルの変更](tech/linux_08.md)    
         * [Linux - find](tech/linux_09.md)    
         * [Linux - rsync](tech/linux_10.md)    
+        * [Linux - zip/unzip](tech/linux_11.md)    
         * [SELinux - selinux環境下でredmineを動かす](tech/selinux_01.md)
         * [ssh - change ssh port number](tech/ssh_01.md)    
         * [ssh - 認証方法を鍵認証に制限する](tech/ssh_02.md)    
