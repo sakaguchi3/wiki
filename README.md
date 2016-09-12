@@ -46,6 +46,7 @@
         * [apache - SSL証明書作成(有料版のやつ)](tech/apache_02.md)    
         * [network - ipv6の話](tech/net_01.md)
         * [git - tagの付け方](tech/git_02.md)    
+        * [git - cherry-pick](tech/git_03.md)    
     * プログラム関連
         * [MyBatis - bulk insert](tech/mybatis_01.md)
         * [scala - Functor/Applicative/Monado](tech/scala.md)    
