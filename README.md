@@ -31,6 +31,8 @@
         * [Linux - rsync](tech/linux_10.md)    
         * [Linux - zip/unzip](tech/linux_11.md)    
         * [Linux - firewalld](tech/linux_12.md)    
+        * [Linux - CentOS7にMySQL5.6をインストール](tech/linux_13.md)    
+        * [Linux - CentOS7にMySQL5.7をインストール](tech/linux_14.md)    
         * [SELinux - selinux環境下でredmineを動かす](tech/selinux_01.md)
         * [ssh - change ssh port number](tech/ssh_01.md)    
         * [ssh - 認証方法を鍵認証に制限する](tech/ssh_02.md)    
