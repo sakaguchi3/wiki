@@ -5,7 +5,7 @@ centos7からライセンス関連でmysqlが標準repositoryに入っていな�
 
 
 
-## mysqlリポジトリ追加
+### mysqlリポジトリ追加
 
 DL出来なければ公式repository確認する。  
 公式repository: https://dev.mysql.com/downloads/repo/yum/  
@@ -148,9 +148,9 @@ Query OK, 0 rows affected, 1 warning (0.00 sec)
 
 
 
-# link
+### link
 
-http://vdeep.net/centos7-mysql
-https://qiita.com/RyochanUedasan/items/9a49309019475536d22a#%E5%95%8F%E9%A1%8C
+* http://vdeep.net/centos7-mysql
+* https://qiita.com/RyochanUedasan/items/9a49309019475536d22a#%E5%95%8F%E9%A1%8C
 
 

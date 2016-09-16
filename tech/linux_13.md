@@ -2,15 +2,15 @@
 
 
 
-# mysql 5.6 のインストール
 
-## 互換ソフトをアンインストール
+
+### 互換ソフトをアンインストール
 ```bash
 $ sudo yum remove mariadb-libs
 $ sudo rm -rf /var/lib/mysql/
 ```
 
-## mysqlリポジトリ追加
+### mysqlリポジトリ追加
 
 ```bash
 $ sudo yum localinstall http://dev.mysql.com/get/mysql57-community-release-el6-7.noarch.rpm
@@ -33,7 +33,7 @@ mysql57-community/x86_64          MySQL 5.7 Community Server      enabled:   201
 mysql57-community-source          MySQL 5.7 Community Server - So disabled
 ```
 
-## mysql5.6インストール
+### mysql5.6インストール
 
 ```bash
 $ sudo  yum  install yum-utils
@@ -93,7 +93,7 @@ Description : The MySQL(TM) software delivers a very fast, multi-threaded, multi
 $ sudo yum install mysql-community-server
 ```
 
-## 起動
+### 起動
 
 ```bash
 $ sudo systemctl enable mysqld
@@ -104,5 +104,5 @@ $ sudo systemctl start mysqld
 
 
 
-## 参考
+### 参考
 https://weblabo.oscasierra.net/installing-mysql56-centos7-yum/
