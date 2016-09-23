@@ -23,7 +23,7 @@
         * [Linux - 監視コマンド](tech/linux_05.md)    
         * [Linux - webバックアップ・リストア](tech/linux_06.md)    
         * [Linux - 2TBを超えるHDDのformat方法](tech/linux_02.md)    
-        * [Linux - centos7にphp5.6インストール](tech/linux_03.md)
+        * [Linux - CentOS7にphp5.6インストール](tech/linux_03.md)
         * [Linux - cronの設定](tech/linux_04.md)    
         * [Linux - ユーザの追加/削除](tech/linux_07.md)    
         * [Linux - ログインシェルの変更](tech/linux_08.md)    
