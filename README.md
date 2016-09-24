@@ -52,7 +52,9 @@
         * [git - cherry-pick](tech/git_03.md)    
     * プログラム関連
         * [MyBatis - bulk insert](tech/mybatis_01.md)
-        * [scala - Functor/Applicative/Monado](tech/scala.md)    
+        * [scala - Functor/Applicative/Monado](tech/scala.md)
+* コンピュータサイエンス
+    * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](science/cs_01.md)
 * 物理
     * [物理 - 宇宙に関すること](science/pyshics_01.md)
       
