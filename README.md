@@ -55,6 +55,7 @@
         * [scala - Functor/Applicative/Monado](tech/scala.md)
 * コンピュータサイエンス
     * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](science/cs_01.md)
+    * [アソシエーションルールを用いたアイテム推薦におけるアイテムベースとユーザベースの性能比較](science/cs_02.md)
 * 物理
     * [物理 - 宇宙に関すること](science/pyshics_01.md)
       
