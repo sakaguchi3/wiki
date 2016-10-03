@@ -59,6 +59,7 @@
 * 物理
     * [物理 - 宇宙に関すること](science/physhics_01.md)
     * [物理 - 朝永振一郎](science/physhics_02.md)
+    * [医学 - 飛行機の中で人の感情、認知能力、体の変化](science/medical_01.md)
       
    
      
