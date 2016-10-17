@@ -108,8 +108,46 @@ $ sudo service mysql restart
 
 
 ```bash
-% mysql -u dbuser -p -h ushi.localdomain
+% mysql -u dbuser -p -h vagrant.localdomain
 ```
+
+
+### insertすると文字化けが起きるときに対処法
+
+
+```mysql-psql
+mysql> show variables like 'character%';
++--------------------------+----------------------------+
+| Variable_name            | Value                      |
++--------------------------+----------------------------+
+| character_set_client     | utf8                       |
+| character_set_connection | utf8                       |
+| character_set_database   | latin1                     |
+| character_set_filesystem | binary                     |
+| character_set_results    | utf8                       |
+| character_set_server     | latin1                     |
+| character_set_system     | utf8                       |
+| character_sets_dir       | /usr/share/mysql/charsets/ |
++--------------------------+----------------------------+
+```
+
+latin1になっているので直す． 
+
+```bash
+$ sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+
+```mysqld.cnf
+[mysqld]
+character-set-server=utf8
+```
+
+character_set_database は変えなくてもいいみたい．
+
+```bash
+$ sudo service mysql restart
+```
+
 
 
 ### link
@@ -118,3 +156,4 @@ $ sudo service mysql restart
 * https://qiita.com/RyochanUedasan/items/9a49309019475536d22a
 * https://qiita.com/RyochanUedasan/items/9a49309019475536d22a
 * https://qiita.com/keisukeYamagishi/items/d897e5c52fe9fd8d9273
+* https://qiita.com/toshihirock/items/fdbc8e7b889e0d17a18d
