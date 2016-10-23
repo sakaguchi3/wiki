@@ -53,6 +53,7 @@
     * プログラム関連
         * [MyBatis - bulk insert](tech/mybatis_01.md)
         * [scala - Functor/Applicative/Monado](tech/scala.md)
+        * [java - ジェネリクス](tech/java_001.md)
 * コンピュータサイエンス
     * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](science/cs_01.md)
     * [アソシエーションルールを用いたアイテム推薦におけるアイテムベースとユーザベースの性能比較](science/cs_02.md)
