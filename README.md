@@ -51,6 +51,7 @@
         * [eclipse - workspaceの削除](tech/eclipse_002.md)    
         * [network - ipv6の話](tech/net_01.md)
         * [netcat](tech/linux_15.md)    
+        * [vagrant - 「VT-x is not available」 のエラーが出たときの対処](tech/vagrant_001.md)    
         * [git - tag](tech/git_02.md)    
         * [git - cherry-pick](tech/git_03.md)    
         * [git - revert](tech/git_04.md)    
