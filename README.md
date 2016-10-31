@@ -53,6 +53,7 @@
         * [netcat](tech/linux_15.md)    
         * [vagrant - VT-x is not available」 のエラーが出たときの対処](tech/vagrant_001.md)    
         * [vagrant - boxファイルのexport/import](tech/vagrant_002.md)    
+        * [vagrant - vagrantのホームディレクトリを変更](tech/vagrant_003.md)    
         * [git - tag](tech/git_02.md)    
         * [git - cherry-pick](tech/git_03.md)    
         * [git - revert](tech/git_04.md)    
