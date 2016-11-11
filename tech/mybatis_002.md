@@ -1,4 +1,4 @@
-# mybatis - 接続方法とか
+# mybatis - 設定ファイル
 
 
 ## configファイル系

@@ -63,6 +63,7 @@
         * [git - cherry-pick](tech_git/git_0003.md)    
         * [git - revert](tech_git/git_0004.md)    
     * プログラム関連
+        * [MyBatis - 設定ファイル](tech/mybatis_002.md)
         * [MyBatis - bulk insert](tech/mybatis_001.md)
         * [scala - Functor/Applicative/Monad](tech/scala_02.md)
         * [java - ジェネリクス](tech/java_001.md)
