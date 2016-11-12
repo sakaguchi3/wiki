@@ -53,7 +53,7 @@ database.PWD=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ## Java側
 
-### session factory 読み込み
+### 使い方
 
 
 ```Java
