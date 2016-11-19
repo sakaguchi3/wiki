@@ -20,6 +20,7 @@
         * [DB - 改行コード削除](tech/db_005.md)    
         * [DB - ランザクション分離レベル](tech/db_006.md)    
         * [DB - SQLの結果をファイルにアウトプットする](tech/db_007.md)    
+        * [DB - Error Code: 1170. BLOB/TEXT column 'xxxx' used in key specification without a key length の対処法](tech/db_008.md)    
         * [Linux - Time Zone変更](tech/linux_01.md)    
         * [Linux - 監視コマンド](tech/linux_05.md)    
         * [Linux - webバックアップ・リストア](tech/linux_06.md)    
