@@ -13,6 +13,7 @@
     * [scala - 備忘録](tech/scala.md)
 * IT技術系
     * インフラ関連
+        * [DB - 権限設定](tech_db/db_010.md)
         * [DB - Database初期設定](tech_db/db_001.md)
         * [DB - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech_db/db_002.md)    
         * [DB - Table定義変更](tech_db/db_009.md)    
