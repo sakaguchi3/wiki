@@ -15,6 +15,7 @@
     * インフラ関連
         * [DB - Database初期設定](tech/db_001.md)
         * [DB - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech/db_002.md)    
+        * [DB - Table定義変更 Columnをあとから追加する](tech/db_009.md)    
         * [DB - insert update](tech/db_003.md)    
         * [DB - backup/restore](tech/db_004.md)    
         * [DB - 改行コード削除](tech/db_005.md)    
