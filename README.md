@@ -52,6 +52,7 @@
         * [netcat](tech/linux_15.md)    
         * [git - tag](tech/git_02.md)    
         * [git - cherry-pick](tech/git_03.md)    
+        * [git - revert](tech/git_04.md)    
     * プログラム関連
         * [MyBatis - bulk insert](tech/mybatis_01.md)
         * [scala - Functor/Applicative/Monad](tech/scala_02.md)
