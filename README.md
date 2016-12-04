@@ -48,6 +48,7 @@
         * [apache - Let's Encrypt自動更新設定](tech/apache_04.md)
         * [apache - SSL証明書作成(有料版のやつ)](tech/apache_02.md)
         * [eclipse - 日本語コメントの文字化けを直す](tech/eclipse_001.md)    
+        * [eclipse - workspaceの削除](tech/eclipse_002.md)    
         * [network - ipv6の話](tech/net_01.md)
         * [netcat](tech/linux_15.md)    
         * [git - tag](tech/git_02.md)    
