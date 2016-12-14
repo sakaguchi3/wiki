@@ -64,7 +64,7 @@ sudo systemctl restart httpd
 redmineのプラグインページにslackがインストールされている。
 
 
-![redmine.PNG](/tech/dir/apache_06/01.PNG)
+![redmine.PNG](/tech_apache/file/apache_06/01.PNG)
 
 
 
@@ -88,13 +88,13 @@ incomming webhooks をクリック。
 
 
 
-![slack1.PNG](/tech/dir/apache_06/02.PNG)
+![slack1.PNG](/tech_apache/file/apache_06/02.PNG)
 
 
 incomming webhook integration をクリック。
 
 
-![slack2.PNG](/tech/dir/apache_06/03.PNG)
+![slack2.PNG](/tech_apache/file/apache_06/03.PNG)
 
 
 
@@ -104,7 +104,7 @@ post to channelで投稿先のチャンネルを選択する。
 
 
 
-![slack3.PNG](/tech/dir/apache_06/04.PNG)
+![slack3.PNG](/tech_apache/file/apache_06/04.PNG)
 
 
 
@@ -115,7 +115,7 @@ webhook ulr のアドレスをコピーする。
 
 
 
-![slack4.PNG](/tech/dir/apache_06/05.PNG)
+![slack4.PNG](/tech_apache/file/apache_06/05.PNG)
 
 
 
@@ -123,7 +123,7 @@ redmineにアクセス。
 
 
 
-![slack5.PNG](/tech/dir/apache_06/06.PNG)
+![slack5.PNG](/tech_apache/file/apache_06/06.PNG)
 
 
 
@@ -132,7 +132,7 @@ redmine slack -> 設定 →  slack urlに先程のアドレスを貼り付ける
 
 
 
-![slack6.PNG](/tech/dir/apache_06/07.PNG)
+![slack6.PNG](/tech_apache/file/apache_06/07.PNG)
 
 
 

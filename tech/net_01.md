@@ -18,20 +18,20 @@ NGNはIPv6で構築された巨大イントラネットであり，インター�
 インターネットに接続する際には，NGNインフラからISPに接続し，ISP経由でインターネットに接続する． 
 NGN内のIPv6アドレスと，インターネットのIPv6アドレスとがかぶってしまうというのが問題としてあるらしいが，なにかしらうまい方法で解決してるらしい． 
 
-![ngn](dir/net_01/ngn.gif)
+![ngn](file/net_01/ngn.gif)
 
 
 
 ### IPv4 PPPoe
 PPPをIPv4でカプセル化して，ISPを経由してインターネットに接続する． 
 ISPは混雑するので時間帯によっては通信速度が遅くなる． 
-![IPv4](dir/net_01/ipv4-pppoe.png)
+![IPv4](file/net_01/ipv4-pppoe.png)
 
 
 ### IPv6 PPPoe
 PPPをIPv6でカプセル化して，ISPを経由してインターネットに接続する．
 ISPは混雑するので時間帯によっては通信速度が遅くなる． 
-![IPv6](dir/net_01/ipv6-pppoe.png)
+![IPv6](file/net_01/ipv6-pppoe.png)
 
 
 ### IPv6 IPoE
@@ -39,7 +39,7 @@ ISPではなくVNEを経由して，インターネットに接続する．
 IPv6で接続するので、IPv4は使えない．
 IPv4サイトに接続する際には従来どおりIP4 PPPoeを使い接続するため，IPv4サイトは遅いままとなる．
 
-![IPv6 IPoE](dir/net_01/ipv6-ipoe.png)
+![IPv6 IPoE](file/net_01/ipv6-ipoe.png)
 
 
 
@@ -48,7 +48,7 @@ IPv4サイトに接続する際には従来どおりIP4 PPPoeを使い接続す�
 IPv6 IPoE方式で接続する． 
 IPv4のサイトには，IPv6プロトコルでカプセル化して送信される． 
 
-![IPv4 over IPv6](dir/net_01/ipv4-over-ipv6.jpg)
+![IPv4 over IPv6](file/net_01/ipv4-over-ipv6.jpg)
 
 
 カプセル化してくれるVNEとしては，jpneが有名らしい．  
