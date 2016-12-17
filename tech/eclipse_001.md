@@ -1,4 +1,4 @@
-# eclipse - eclipse - 日本語コメントの文字化けを直す
+# eclipse - 日本語コメントの文字化けを直す
 
 
 ## TL;DR
