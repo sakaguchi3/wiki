@@ -19,12 +19,12 @@ eclipse201812にしたら日本語から始まるコメントが文字化けす�
 eclipse201812だと日本語から始まるコメントが文字化けを起こす
 
 
-![PNG](/tech/dir/eclipse_001/image002.png)
+![PNG](/tech/dir/eclipse_001/image002.PNG)
 
 Windows→Preferences→Colors and Fonts→Java Editor Text Font→Edit
 
 
-![PNG](/tech/dir/eclipse_001/image003.png)
+![PNG](/tech/dir/eclipse_001/image003.PNG)
 
 フォント名にCicaを選ぶ．   
 Cicaフォントだと文字が小さくなるので，サイズは11くらいにしたほうがいいかも．
