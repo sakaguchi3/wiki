@@ -60,7 +60,6 @@ A - B - C - G' - H' - I'(target-branch)
 ```git
 git log --stat --decorate --find-renames
 git log --oneline --graph  --all
-git config global --config
 git log --pretty=oneline | awk '{print $1}' | awk '/xxxx/'
 git log -p program/dir
 git log  --author=uqw -p program/dir
