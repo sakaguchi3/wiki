@@ -1,5 +1,9 @@
 # Linux - Time Zone変更 
 
+## TL;DR
+なんかvagrantのCentOSだと、デフォルトのタイムゾーンがCETになっていたのでJSTに変更した
+
+## やったこと
 
 ```bash
 [linuxuser@server ~]$ date
