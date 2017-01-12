@@ -15,5 +15,6 @@
     * [DB - Database初期設定](tech/db_01.md)    
     * [Linux - Time Zone変更](tech/linux_01.md)    
     * [Linux - 2TBを超えるHDDのformat方法](tech/linux_02.md)    
+    * [Linux - centos7にphp5.6インストール](tech/linux_03.md)    
    
      
