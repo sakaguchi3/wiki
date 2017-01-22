@@ -24,6 +24,7 @@
     * [Linux - 2TBを超えるHDDのformat方法](tech/linux_02.md)    
     * [Linux - centos7にphp5.6インストール](tech/linux_03.md)
     * [Linux - cronの設定](tech/linux_04.md)    
+    * [Linux - ユーザの追加/削除](tech/linux_07.md)    
     * [php - fuelphp orm](tech/php_01.md)
     * [php - fuelphp 環境変数](tech/php_02.md)
     * [apache - SSL作成](tech/apache_02.md)
