@@ -72,16 +72,13 @@ linuxusr@server:0:% sudo sshd -t
 ```
 
 
-### (脇道)SELinuxの設定をしていないと怒られるので、先にSELinuxを設定する必要がある
+### 脇道、SELinuxの設定をしていないと怒られるので、先にSELinuxを設定する必要がある
 
-設定反映しようとすると怒られる
 ```shell
 linuxusr@server:0:% sudo systemctl restart sshd
 Job for sshd.service failed because the control process exited with error code. See "systemctl status sshd.service" and "journalctl -xe" for details.
 ```
-
-
-エラー内容をみてみると、selinuxのほうのポートを設定してあげないとダメらしいので、SELinuxの設定をする。
+設定反映しようとすると怒られる
 ```shell
 linuxusr@server:1:% sudo systemctl status sshd.service
 ● sshd.service - OpenSSH server daemon
@@ -97,6 +94,7 @@ Nov 01 13:45:17 server.localdomain systemd[1]: Failed to start OpenSSH server da
 Nov 01 13:45:17 server.localdomain systemd[1]: Unit sshd.service entered failed state.
 Nov 01 13:45:17 server.localdomain systemd[1]: sshd.service failed.
 ```
+エラー内容をみてみると、selinuxのほうのポートを設定してあげないとダメらしいので、SELinuxの設定をする。
 
 
 
@@ -159,6 +157,6 @@ success
 
 ## 参考
 
-https://weblabo.oscasierra.net/openssh-sshd-centos7-change-port/
-http://lovepeers.org/2014/11/21/centos7-sshd/
+* https://weblabo.oscasierra.net/openssh-sshd-centos7-change-port/
+* http://lovepeers.org/2014/11/21/centos7-sshd/
 
