@@ -34,6 +34,7 @@
     * [apache - Let's Encrypt手動更新手順](tech/apache_03.md)
     * [apache - Let's Encrypt自動更新設定](tech/apache_04.md)
     * [apache - crowi plusのセットアップ](tech/apache_01.md)
+    * [apache - redmineとslackを連携](tech/apache_06.md)
     * [network - ipv6の話](tech/net_01.md)
     * [git - tagの付け方](tech/git_02.md)    
 * 物理
