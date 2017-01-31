@@ -1,16 +1,16 @@
-# Scala - Functor/Applicative/Monad
+# Scala(hasskell) - Functor/Applicative/Monad
 
 
 
 ### Functor
 
-型
+型(haskell)
 ```haskell
 fmap :: (a->b) -> fa -> fb
 ```
 
 
-例
+例(haskell)
 ```haskell
 > fmap (+3) (Just 2)
 Just 5
@@ -20,14 +20,13 @@ Just 5
 ### Applicative
 
 
-型のイメージ
+型(haskell)
 ```haskell
 f(a->b) -> fa -> fb
 ```
 
 
-例
-
+例(haskell)
 ```haskell
 > Just (+3) <*> Just 2 == Just 5
 Just 5
@@ -39,14 +38,14 @@ Just 5
 ### Monad
 
 
-型
+型(haskell)
 ```haskell
 class Monad m where    
     (>>=) :: m a -> (a -> m b) -> m b  
 ```
 
 
-例
+例(haskell)
 ```haskell
 half x = if even x
            then Just (x `div` 2)

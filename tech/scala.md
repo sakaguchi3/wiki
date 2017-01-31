@@ -215,7 +215,8 @@ def div(n: Int, m: Int) = {
 
 ### Scala Dynamic
 
-フィールドアクセスで値の取得/更新ができる．
+フィールドアクセスで値の取得/更新ができる． 
+（プロパティアクセスっぽい表現ができる）
 
 定義
 ```scala
@@ -235,6 +236,8 @@ m: MyMap = MyMap@13882c0
 
 scala> m.selectDynamic("abc")
 res12: Int = 123
+
+# こんな感じでプロパティアクセスで表現できる
 
 scala> m.abc
 res13: Int = 123
