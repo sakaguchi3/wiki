@@ -7,7 +7,7 @@
 
 # Index
 
-* 技術系
+* IT技術系
     * [vim - 備忘録](tech/vim.md)     
     * [git - 備忘録](tech/git.md)
     * [scala - 備忘録](tech/scala.md)
@@ -21,7 +21,7 @@
     * [Linux - cronの設定](tech/linux_04.md)    
     * [apache - SSL作成](tech/apache_02.md)
     * [apache - crowi plusのセットアップ](tech/apache_01.md)
-    * [ipv6の話](tech/net_01.md)
+    * [network - ipv6の話](tech/net_01.md)
 * 物理
     * [物理 - 宇宙に関すること](science/pyshics_01.md)
       
