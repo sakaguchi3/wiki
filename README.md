@@ -23,6 +23,7 @@
     * [Linux - 2TBを超えるHDDのformat方法](tech/linux_02.md)    
     * [Linux - centos7にphp5.6インストール](tech/linux_03.md)
     * [Linux - cronの設定](tech/linux_04.md)    
+    * [php - fuelphp orm](tech/php_01.md)
     * [apache - SSL作成](tech/apache_02.md)
     * [apache - Let's Encrypt手動更新手順](tech/apache_03.md)
     * [apache - Let's Encrypt自動更新設定](tech/apache_04.md)
