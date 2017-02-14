@@ -7,10 +7,11 @@
 
 # Index
 
-* IT技術系
+* よくみる
     * [vim - 備忘録](tech/vim.md)     
     * [git - 備忘録](tech/git.md)
     * [scala - 備忘録](tech/scala.md)
+* IT技術系
     * [scala - Functor/Applicative/Monado](tech/scala.md)    
     * [DB - Database初期設定](tech/db_01.md)
     * [DB - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech/db_02.md)    
@@ -29,6 +30,7 @@
     * [apache - Let's Encrypt自動更新設定](tech/apache_04.md)
     * [apache - crowi plusのセットアップ](tech/apache_01.md)
     * [network - ipv6の話](tech/net_01.md)
+    * [git - tagの付け方](tech/git_02.md)    
 * 物理
     * [物理 - 宇宙に関すること](science/pyshics_01.md)
       
