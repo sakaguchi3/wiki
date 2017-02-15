@@ -10,8 +10,14 @@
 ```
 
 ## tagの削除
+
+ローカル
 ```git
 % git tag -d TAG_NAME
+```
+
+リモート
+```git
 % git push origin :refs/tags/TAG_NAME
 または
 % git push origin :TAG_NAME
