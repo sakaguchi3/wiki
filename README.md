@@ -21,6 +21,8 @@
     * [Linux - centos7にphp5.6インストール](tech/linux_03.md)
     * [Linux - cronの設定](tech/linux_04.md)    
     * [apache - SSL作成](tech/apache_02.md)
+    * [apache - Let's Encrypt手動更新手順](tech/apache_03.md)
+    * [apache - Let's Encrypt自動更新設定](tech/apache_04.md)
     * [apache - crowi plusのセットアップ](tech/apache_01.md)
     * [network - ipv6の話](tech/net_01.md)
 * 物理
