@@ -21,6 +21,7 @@
     * [Linux - cronの設定](tech/linux_04.md)    
     * [apache - SSL作成](tech/apache_02.md)
     * [apache - crowi plusのセットアップ](tech/apache_01.md)
+    * [ipv6の話](tech/net_01.md)
 * 物理
     * [物理 - 宇宙に関すること](science/pyshics_01.md)
       
