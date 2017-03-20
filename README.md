@@ -16,6 +16,7 @@
     * [DB - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech/db_02.md)    
     * [DB - insert update](tech/db_03.md)    
     * [DB - backup/restore](tech/db_04.md)    
+    * [DB - 改行コード削除](tech/db_05.md)    
     * [Linux - Time Zone変更](tech/linux_01.md)    
     * [Linux - 監視コマンド](tech/linux_05.md)    
     * [Linux - webバックアップ・リストア](tech/linux_06.md)    
