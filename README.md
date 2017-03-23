@@ -16,6 +16,7 @@
     * [Linux - Time Zone変更](tech/linux_01.md)    
     * [Linux - 2TBを超えるHDDのformat方法](tech/linux_02.md)    
     * [Linux - centos7にphp5.6インストール](tech/linux_03.md)
+    * [Linux - cronの設定](tech/linux_04.md)    
     * [apache - crowi plusのセットアップ](tech/apache_01.md)
 * 物理
     * [物理 - 宇宙に関すること](science/pyshics_01.md)
