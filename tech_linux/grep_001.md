@@ -1,4 +1,4 @@
-# grep and検索/or検索
+# grep
 
 
 

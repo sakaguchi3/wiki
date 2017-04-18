@@ -16,8 +16,18 @@ DB > collection > document > field
 |index|index|
 |primary key| **_id** |
 
+データベース操作
 
+|MySQL| 	MongoDB|
+|:-----:|:-----:|
+|SHOW DATABASES;| 	show dbs|
+|USE testdb;| 	use testdb|
+|CREATE DATABASE testdb;| 	useコマンドで自動生成|
+|DROP DATABASE testdb;| 	use testdb <br>db.dropDatabase()|
+|index| 	index|
+|DESC testdb; |	なし|
 
+https://qiita.com/yuji0602/items/c55e2cb75376fd565b4e
 
 ## command
 

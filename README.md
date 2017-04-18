@@ -9,8 +9,10 @@
 
 ## よくみる
 
-* [vim - 備忘録](tech/vim.md)     
+* [vim - 備忘録](tech/vim.md)
 * [git - 備忘録](tech_git/git_0001.md)
+* [技術備忘録](tech/dev_001.md)          
+* [Mac備忘録](tech_linux/mac_007.md)
 
 
 ## Mac
@@ -21,13 +23,13 @@
 * [Mac - eclipseを多重起動](tech_linux/mac_003.md)
 * [Macでhostsファイルを更新](tech_linux/mac_005.md)
 * [MacにVirtualBoxをインストール](tech_linux/mac_006.md)
-* [Macでリソースを表示 - アクティブティモニタ](tech_linux/mac_007.md)
+* [Macでボイスオーバを起動させない](tech_linux/mac_009.md)
 
 
 ## Linux
 
 * [pythonのバージョンを切り替える - pyenv @ubuntu18.04](tech_linux/pytho_001.md)
-* [grep and検索/or検索](tech_linux/grep_001.md)
+* [grep](tech_linux/grep_001.md)
 * [MySQL - 権限設定](tech_db/msyql_010.md)
 * [MySQL - Database初期設定](tech_db/msyql_001.md)
 * [MySQL - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech_db/msyql_002.md)    
@@ -42,7 +44,8 @@
 * [mongodb - import from js](tech_db/mongo_002.md)
 * [HBase - 環境構築](tech/hbase_001.md)                    
 * [HBase - 入門](tech/hbase_002.md)                    
-* [redis - redis入門](tech_db/redis_001.md)    
+* [redis - redis入門](tech_db/redis_001.md)
+* [bash script](tech_linux/bash_001.md)
 * [Linux - Time Zone変更](tech_linux/linux_001.md)    
 * [Linux - 監視コマンド(vmstat/dstat/sar)](tech_linux/linux_005.md)    
 * [Linux - webバックアップ・リストア](tech_linux/linux_006.md)    
@@ -55,7 +58,8 @@
 * [Linux - MySQL5.7をインストール @CentOS7](tech_linux/linux_014.md)
 * [Linux - MySQL5.7をセットアップした時のメモ @ Ubuntu18.04](tech_linux/linux_016.md)
 * [Linux - mongodbをセットアップしたときのメモ @ Ubuntu18.04](tech_linux/linux_017.md)
-* [Linux - redisをインストールしたときのメモ @ Ubuntu18.04](tech_linux/linux_018.md)
+* [Linux - redisをインストールしたときのメモ @ Ubuntu18.04](tech_linux/linux_020.md)
+* [ubuntu - systemctl](tech_linux/linux_020.md)
 * [AWS - awscli で s3 を操作する@ Ubuntu18.04](tech_linux/aws_001.md)
 * [mailman - spamメールをフィルタする](tech_linux/mailman_001.md)
 * [sudoer周りの設定 @ CentOS7](tech_linux/sudo_0001.md)      
@@ -78,6 +82,7 @@
 * [ssh パスワード認証を利用](tech/ssh_05.md)    
 * [ssh 鍵作成関連](tech/ssh_04.md)    
 * [nmap](tech/nmap_0001.md)
+* [regex](tech/regex_0001.md)
 * [php - fuelphp ORM](tech/php_01.md)
 * [php - fuelphp 環境変数](tech/php_02.md)
 * [php - FuelPHPのlogが出力されない](tech/php_03.md)
@@ -97,7 +102,7 @@
 * [apache - Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法](tech_apache/apache_10.md)
 * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
 * [network - ipv6の話](tech/net_01.md)
-* [eclipseにUMLプラグインを入れる](tech/eclipse_004.md)
+* [ipコマンド](tech/ip_001.md)
 * [ffmpeg](tech/ffmpeg_01.md)    
 * [netcat](tech_linux/linux_015.md)    
 * [git - tag](tech_git/git_0002.md)    
@@ -105,6 +110,8 @@
 * [git - revert](tech_git/git_0004.md)
 * [git - git-lfsのセットアップ](tech_git/git_0006.md)
 * [git - コミット日時を捏造](tech_git/git_0005.md)
+* [git - reset](tech_git/git_0007.md)
+
     
 ## IT関連(全般)
 
@@ -133,14 +140,21 @@
     * [Dockerでredisを構築](tech/docker_003.md)
     * [Dockerでredis clustorを構築](tech/docker_004.md)
     * [Docker composerをインストール@Ubuntu18.04](tech/docker_005.md)
+    * [Docker 覚書](tech/docker_006.md)
     * [eclipse - 日本語コメントの文字化けを直す](tech/eclipse_001.md)    
     * [eclipse - workspaceの削除](tech/eclipse_002.md)
     * [eclipse - eclipse 改行文字数の設定](tech/eclipse_003.md)
     * [eclipseでJava Project→Maven Projectに変換](tech/eclipse_005.md)            
     * [eclipseでdotファイルを表示](tech/eclipse_006.md)            
+    * [eclipse tomcatのlog保存先](tech/eclipse_007.md)            
+    * [eclipseにUMLプラグインを入れる](tech/eclipse_004.md)    
+    * [eclipseで"Plugin execution not covered by lifecycle configuration"が出た時](tech/eclipse_008.md)    
+    * [eclipse jsonエラーを無視する](tech/eclipse_009.md)    
     * [winscp - keep aliveを送る](tech/win_001.md)
     * [windows - 右クリックメニューのキャプチャー](tech/win_002.md)
     * [intellij](tech/intellij_001.md)
+    * [dropboxで画像をインライン化する](tech/dropbox_001.md)
+    * [google翻訳](tech/google_001.md)
 * あとで確認する項目        
     * [FuelPHP - bootstrap配下の環境設定ファイル](later/later_0001.md)
     * [あとで確認1](later/later_0002.md)
