@@ -13,6 +13,8 @@
 * [git - 備忘録](tech_git/git_0001.md)
 * [技術備忘録](tech/dev_001.md)          
 * [Mac備忘録](tech_linux/mac_007.md)
+* [eclipse - shorcut key](tech/eclipse_010.md)    
+
 
 
 ## Mac
