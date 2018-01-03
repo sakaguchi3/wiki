@@ -163,6 +163,7 @@
     * [java - keytoolを使ってjks証明書追加方法](tech/java_006.md)
     * [java - 証明書指定方法](tech/java_007.md)
     * [java - 証明書エラーを無理やり回避する](tech/java_008.md) 
+    * [java - 乱数 | rand](tech/java_012.md) 
     * [java - guava Cache](tech/java_009.md) 
     * [java - guava ImmutableCollection](tech/java_011.md) 
     * [java - apache math3](tech/java_010.md) 
