@@ -154,6 +154,8 @@
     * [scala - Functor/Applicative/Monad](tech/scala_02.md)    
     * [scala - 競技プログラミング](tech/scala_03.md)
     * [java - vavr - 関数型プログラミング](tech/java_005.md)
+    * [java - PriorityBlockingQueue, Comparable](tech/java_013.md)
+    * [java - Collection#contains](tech/java_014.md) 
     * [java - ジェネリクス1](tech/java_001.md)
     * [java - ジェネリクス2](tech/java_003.md)
     * [java - 内部クラス(inner class)](tech/java_002.md)   
