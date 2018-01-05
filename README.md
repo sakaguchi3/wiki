@@ -156,6 +156,7 @@
     * [java - vavr - 関数型プログラミング](tech/java_005.md)
     * [java - PriorityBlockingQueue, Comparable](tech/java_013.md)
     * [java - Collection#contains](tech/java_014.md) 
+    * [java - ベンチマークなどでログ出力を20回に1回に制限したい | benchmark, probability, 確率](tech/java_015.md) 
     * [java - ジェネリクス1](tech/java_001.md)
     * [java - ジェネリクス2](tech/java_003.md)
     * [java - 内部クラス(inner class)](tech/java_002.md)   
