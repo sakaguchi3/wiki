@@ -1,58 +1,66 @@
 # java - scalaのzipみたいなのをjavaで使う
 
 
-必要なlibrary
-* guava
-    * zipメソッド
-* commons lang
-    * Pair(tupleっぽいもの)
-
 ## pom
 
-```pom
+vavr
+
+```pom.xml
 		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.8.1</version>
-		</dependency>
+			<groupId>io.vavr</groupId>
+			<artifactId>vavr</artifactId>
+			<version>0.10.3</version> 
+		</dependency
+```
+
+guava 
+
+```pom.xml
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>27.1-jre</version>
-		</dependency>
+			<version>29.0-jre</version>
+		</dependency> 
 ```
 
-## java
+
+## vavrを使ったzip
 
 ```java
-import org.apache.commons.lang3.tuple.ImmutablePair;
-
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Streams;
-
-public class ZipTest {
-
-	void exec() {
-
+	@Test
+	public void zipByVavrTest() {
 		var names = ImmutableList.of("Alice", "Bob", "Charles", "Dragon");
 		var ages = ImmutableList.of(42, 27, 31);
+		List<Tuple2<String, Integer>> tuples = Stream //
+				.ofAll(names) //
+				.zip(ages) //
+				.toJavaList();
 
-		var tuples = Streams //
-				.zip(names.stream(), ages.stream(), ImmutablePair::new) // (String, Int) -> Pair
-				.collect(ImmutableList.toImmutableList()) // Pair -> (reduction) -> List<Pair>
-		;
-
-		tuples.stream() //
-				.map(ImmutablePair::toString) // Pair -> String
-				.forEach(System.out::println) //
-		;
-
-	}
-
-}
-
+		// [(Alice, 42), (Bob, 27), (Charles, 31)]
+		tuples.forEach(v -> System.out.println(v));
+	} 
 ```
 
+
+## guavaを使ったzip
+
+```java
+	@Test
+	public void zipByGuavaTest() {
+		var names = ImmutableList.of("Alice", "Bob", "Charles", "Dragon");
+		var ages = ImmutableList.of(42, 27, 31);
+		List<Tuple2<String, Integer>> tuples = Streams //
+				.zip(names.stream(), ages.stream(), Tuple::of) //
+				.collect(ImmutableList.toImmutableList());
+
+		// [(Alice, 42), (Bob, 27), (Charles, 31)]
+		tuples.forEach(v -> System.out.println(v));
+	} 
+```
+
+
+
+## 出力結果
 
 ```bash
 (Alice,42)
