@@ -1,6 +1,11 @@
 # grep
 
+## ファイルの中身から文字列を検索する
 
+```bash
+ grep "fugafuga_hogehoge" server.log -i > tmp.txt
+ grep -e "fugafuga" -e "hogehoge" catalina.out -i > tmp.txt
+```
 
 ## search keyword from file
 
