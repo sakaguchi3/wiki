@@ -30,6 +30,7 @@
 
 ## Linux
 
+
 * [memo](tech_linux/memo_001.md)
 * [pythonのバージョンを切り替える - pyenv @ubuntu18.04](tech_linux/pytho_001.md)
 * [MySQL - 権限設定](tech_db/msyql_010.md)
@@ -149,6 +150,7 @@
 ## IT関連(全般)
 
 * プログラム関連
+    * [OAuth2.0](tech/oauth_001.md)
     * [MyBatis - 設定ファイル](tech/mybatis_002.md)
     * [MyBatis - bulk insert](tech/mybatis_001.md)
     * [MyBatis - “Table name pattern can not be NULL or empty”in java が起きた時の話](tech/mybatis_003.md)
