@@ -34,8 +34,8 @@ SELECT
 FROM access_log t1 
 
 WHERE TRUE
-  AND TD_INTERVAL(t1,time, '-1d/now')
-  AND TD_INTERVAL(t1,time, '-1d/2019-03-25')
+  AND TD_INTERVAL(t1.time, '-1d/now')
+  AND TD_INTERVAL(t1.time, '-1d/2019-03-25')
   AND TD_TIME_RANGE(t1.time, '2020-03-24', '2020-03-25', 'JST')
   AND TD_TIME_RANGE(t1.time, '2020-03-24', TD_TIME_ADD('2020-03-24', '1d))
   AND TD_TIME_RANGE(t1.time, '2020-04-15', null)
