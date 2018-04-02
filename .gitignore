@@ -3,8 +3,9 @@
 # inttelij
 .idea
 .project
+.settings/
 
-
+# other
 temp.md
 temp.sql
 tmp*.md

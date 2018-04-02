@@ -143,7 +143,8 @@
     * [intellij](tech/intellij_001.md)
 * あとで確認する項目        
     * [FuelPHP - bootstrap配下の環境設定ファイル](later/later_0001.md)
-    * [あとで](later/later_0002.md)
+    * [あとで確認1](later/later_0002.md)
+    * [あとで確認2](later/later_0003.md)
 * コンピュータサイエンス
     * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](other/cs_01.md)
     * [アソシエーションルールを用いたアイテム推薦におけるアイテムベースとユーザベースの性能比較](other/cs_02.md)
