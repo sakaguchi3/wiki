@@ -103,6 +103,7 @@
     * [java - ジェネリクス1](tech/java_001.md)
     * [java - ジェネリクス2](tech/java_003.md)
     * [java(memo) - 内部クラス(inner class)](tech/java_002.md)   
+    * [java - javaでscalaっぽくzipping](tech/java_004.md)   
     * [servlet - HelloServlet](tech/servlet_001.md)
     * [python標準出力](tech/python_001.md)
     * [(memo)prog - 手続き型言語 / OOP / 関数型言語 の違い(?)](tech/prog_0001.md)
