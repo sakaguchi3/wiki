@@ -1,4 +1,4 @@
-# Java - scalaのzipみたいなもの
+# java - scalaのzipみたいなのをjavaで使う
 
 
 必要なlibrary
