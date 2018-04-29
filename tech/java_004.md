@@ -30,7 +30,7 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Streams;
 
-public class Zip {
+public class ZipTest {
 
 	void exec() {
 
