@@ -44,6 +44,7 @@
 * [Linux - MySQL5.7をセットアップした時のメモ @ Ubuntu18.04](tech_linux/linux_016.md)
 * [Linux - mongodbをセットアップしたときのメモ @ Ubuntu18.04](tech_linux/linux_017.md)
 * [Linux - redisをインストールしたときのメモ @ Ubuntu18.04](tech_linux/linux_018.md)
+* [AWS - awscli で s3 を操作する@ Ubuntu18.04](tech_linux/aws_001.md)
 * [mailman - spamメールをフィルタする](tech_linux/mailman_001.md)
 * [sudoer周りの設定 @ CentOS7](tech_linux/sudo_0001.md)      
 * [sudoer周りの設定 @ Ubuntu18.04](tech_linux/sudo_0002.md)      
@@ -99,6 +100,7 @@
     * [MyBatis - bulk insert](tech/mybatis_001.md)
     * [MyBatis - “Table name pattern can not be NULL or empty”in java が起きた時の話](tech/mybatis_003.md)
     * [scala - Functor/Applicative/Monad](tech/scala_02.md)
+    
     * [scala - 競技プログラミング](tech/scala_03.md)
     * [java - ジェネリクス1](tech/java_001.md)
     * [java - ジェネリクス2](tech/java_003.md)
