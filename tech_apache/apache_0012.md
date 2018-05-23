@@ -13,7 +13,7 @@ $ htdigest -c digest_file "HogeRelm" hogeuser
 追記する場合
 
 ```bash
-$ htdigest -c digest_file "FugaRelm" fugauser
+$ htdigest    digest_file "FugaRelm" fugauser
 ``` 
 
 ### モジュール有効化
