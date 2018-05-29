@@ -103,7 +103,7 @@
     * [java - ジェネリクス2](tech/java_003.md)
     * [java(memo) - 内部クラス(inner class)](tech/java_002.md)   
     * [servlet - HelloServlet](tech/servlet_001.md)
-    * [python要潤出力](tech/python_001.md)
+    * [python標準出力](tech/python_001.md)
     * [(memo)prog - 手続き型言語 / OOP / 関数型言語 の違い(?)](tech/prog_0001.md)
 * ツール
     * [vagrant - VT-x is not available」 のエラーが出たときの対処](tech/vagrant_001.md)    
