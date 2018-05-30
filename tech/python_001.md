@@ -14,7 +14,7 @@ print('答え:' + str(i100) + ", " + '答え:' + str(i200))
 
 ## osやpythonバージョン出力
 
-pythonバージョン
+pythonバージョン情報出力
 
 ```python:python3.7
 //3.7   
@@ -22,6 +22,7 @@ print(sys.version_info)
 sys.version_info(major=3, minor=7, micro=1, releaselevel='final', serial=0)
 ```
 
+os情報出力
 
 ```python
 print(os.name)
