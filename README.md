@@ -110,12 +110,14 @@
 * [ipコマンド](tech/ip_001.md)
 * [ffmpeg](tech/ffmpeg_01.md)    
 * [netcat](tech_linux/linux_015.md)    
+* [git - archive](tech_git/git_0008.md)    
 * [git - tag](tech_git/git_0002.md)    
 * [git - cherry-pick](tech_git/git_0003.md)    
 * [git - revert](tech_git/git_0004.md)
 * [git - git-lfsのセットアップ](tech_git/git_0006.md)
 * [git - コミット日時を捏造](tech_git/git_0005.md)
 * [git - reset](tech_git/git_0007.md)
+* [Protocol Buffer, profbuf](tech_linux/profbuf_001.md)
 
     
 ## IT関連(全般)
