@@ -28,6 +28,16 @@ fi
 	done;
 ```
 
+配列に格納してDBリストア
+
+```bash
+TABLES=`ls *.sql`
+
+for t in ${TABLES[@]} ; do
+	mysql -h${HOST} -u${USER} -p${PASS} ${DB} < ${t}
+done
+```
+
 ### 変数の存在をチェック
 
 ```bash
