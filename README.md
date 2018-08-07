@@ -14,7 +14,7 @@
 * [scala - 備忘録](tech/scala_01.md)
 
 
-## IT関連(インフラ)
+## Linux
 
 
 * [MySQL - 権限設定](tech_db/msyql_010.md)
@@ -48,7 +48,8 @@
 * [Linux - ubuntu18.04にMySQL5.7をセットアップした時のメモ](tech_linux/linux_016.md)
 * [Linux - ubuntu18.04にmongodbをセットアップしたときのメモ](tech_linux/linux_017.md)
 * [Linux - ubuntu18.04にredisをインストールしたときのメモ](tech_linux/linux_018.md)        
-* [Linux - CentOS7でsudoer周りの権限](tech_linux/linux_020.md)      
+* [sudo - sudoer周りの設定 @ CentOS7](tech_linux/sudo_0001.md)      
+* [sudo - sudoer周りの設定 @ Ubuntu18.04](tech_linux/sudo_0002.md)      
 * [dd - 巨大ファイル作成](tech_linux/dd_001.md)      
 * [tar](tech_linux/tar_001.md)      
 * [gpg- ファイル暗号](tech_linux/gpg_001.md)      
@@ -72,16 +73,9 @@
 * [apache - Let's Encrypt自動更新設定](tech_apache/apache_04.md)
 * [apache - Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法](tech_apache/apache_10.md)
 * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
-* [eclipse - 日本語コメントの文字化けを直す](tech/eclipse_001.md)    
-* [eclipse - workspaceの削除](tech/eclipse_002.md)
-* [eclipse - eclipse 改行文字数の設定](tech/eclipse_003.md)            
 * [network - ipv6の話](tech/net_01.md)
 * [ffmpeg](tech/ffmpeg_01.md)    
 * [netcat](tech_linux/linux_015.md)    
-* [vagrant - VT-x is not available」 のエラーが出たときの対処](tech/vagrant_001.md)    
-* [vagrant - boxファイルのexport/import](tech/vagrant_002.md)    
-* [vagrant - vagrantのホームディレクトリを変更](tech/vagrant_003.md)
-* [vagrant - vagrantコマンド](tech/vagrant_004.md)    
 * [git - tag](tech_git/git_0002.md)    
 * [git - cherry-pick](tech_git/git_0003.md)    
 * [git - revert](tech_git/git_0004.md)
@@ -101,6 +95,13 @@
     * [servlet - HelloServlet](tech/servlet_001.md)
     * [(memo)prog - 手続き型言語 / OOP / 関数型言語 の違い(?)](tech/prog_0001.md)
 * ツール
+    * [vagrant - VT-x is not available」 のエラーが出たときの対処](tech/vagrant_001.md)    
+    * [vagrant - boxファイルのexport/import](tech/vagrant_002.md)    
+    * [vagrant - vagrantのホームディレクトリを変更](tech/vagrant_003.md)
+    * [vagrant - vagrantコマンド](tech/vagrant_004.md)    
+    * [eclipse - 日本語コメントの文字化けを直す](tech/eclipse_001.md)    
+    * [eclipse - workspaceの削除](tech/eclipse_002.md)
+    * [eclipse - eclipse 改行文字数の設定](tech/eclipse_003.md)            
     * [winscp - keep aliveを送る](tech/win_001.md)
     * [windows - 右クリックメニューのキャプチャー](tech/win_002.md)
 * あとで確認する項目        
