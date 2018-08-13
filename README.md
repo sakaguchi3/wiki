@@ -29,7 +29,7 @@
         * [MySQL - 権限設定](tech_db/msyql_010.md)
         * [MySQL - Database初期設定](tech_db/msyql_001.md)
         * [MySQL - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech_db/msyql_002.md)    
-        * [MySQL - Table定義変更](tech_db/msyql_009.md)    
+        * [MySQL - Table定義変更](tech_db/msyql_o.md)    
         * [MySQL - insert update](tech_db/msyql_003.md)    
         * [MySQL - backup/restore](tech_db/msyql_004.md)    
         * [MySQL - 改行コード削除](tech_db/msyql_005.md)    

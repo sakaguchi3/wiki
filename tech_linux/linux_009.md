@@ -1,5 +1,14 @@
 # find
 
+
+### 中身確認
+
+```bash
+$ find . -type f  -name '201903*'  | xargs grep 'xxxxx'
+```
+
+
+
 ### csv, xmlを削除する
 
 ```bash
