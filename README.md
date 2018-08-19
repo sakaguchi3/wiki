@@ -39,7 +39,7 @@
         * [mongodb - mongodb入門](tech_db/mongo_001.md)    
         * [redis - redis入門](tech_db/redis_001.md)    
         * [Linux - Time Zone変更](tech_linux/linux_001.md)    
-        * [Linux - 監視コマンド](tech_linux/linux_005.md)    
+        * [Linux - 監視コマンド(vmstat/dstat/sar)](tech_linux/linux_005.md)    
         * [Linux - webバックアップ・リストア](tech_linux/linux_006.md)    
         * [Linux - 2TBを超えるHDDのformat方法](tech_linux/linux_002.md)    
         * [Linux - CentOS7にphp5.6インストール](tech_linux/linux_003.md)
