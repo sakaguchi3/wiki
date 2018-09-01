@@ -14,6 +14,7 @@
 * [技術備忘録](tech/dev_001.md)          
 * [Mac備忘録](tech_linux/mac_007.md)
 * [eclipse - shorcut key](tech/eclipse_010.md)    
+* [intellij - shortcut key](tech/intellij_001.md)
 
 
 
@@ -156,7 +157,6 @@
     * [eclipse jsonエラーを無視する](tech/eclipse_009.md)    
     * [winscp - keep aliveを送る](tech/win_001.md)
     * [windows - 右クリックメニューのキャプチャー](tech/win_002.md)
-    * [intellij](tech/intellij_001.md)
     * [dropboxで画像をインライン化する](tech/dropbox_001.md)
     * [google翻訳](tech/google_001.md)
 * あとで確認する項目        
