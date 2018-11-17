@@ -57,6 +57,7 @@
         * [Linux - ubuntu18.04にredisをインストールしたときのメモ](tech_linux/linux_018.md)        
         * [Linux - CentOS7でsudoer周りの権限](tech_linux/linux_020.md)      
         * [dd - 巨大ファイル作成](tech_linux/dd_001.md)      
+        * [tar](tech_linux/tar_001.md)      
         * [gpg- ファイル暗号](tech_linux/gpg_001.md)      
         * [shellスクリプト](tech_linux/shell_0001.md)                
         * [diffコマンド](tech_linux/linux_021.md)    
