@@ -1,4 +1,4 @@
-# MyBatis - 「“Table name pattern can not be NULL or empty”in java」
+# MyBatis - “Table name pattern can not be NULL or empty”in javaが起きた時の話
 
 ## TL;DR
 
