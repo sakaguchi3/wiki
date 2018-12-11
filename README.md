@@ -76,6 +76,8 @@
         * [git - tag](tech_git/git_0002.md)    
         * [git - cherry-pick](tech_git/git_0003.md)    
         * [git - revert](tech_git/git_0004.md)    
+    * あとで確認する項目        
+        * [FuelPHP - bootstrap配下の環境設定ファイル]
 * コンピュータサイエンス
     * [クックパッドにおけるDeep Learning を用いた料理画像判別の取り組み](science/cs_01.md)
     * [アソシエーションルールを用いたアイテム推薦におけるアイテムベースとユーザベースの性能比較](science/cs_02.md)
