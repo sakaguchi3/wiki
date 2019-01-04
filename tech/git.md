@@ -1,0 +1,76 @@
+# git - 備忘録
+
+
+### permissionの変更を検知しない
+
+```git
+$ git config core.filemode false
+$ git config -l |grep filemode
+```
+
+### 全部ランチ表示
+
+```git
+$ git branch -a
+```
+
+
+### upstreamブランチの登録
+
+```git
+$ git branch -u origin/issue issue
+```
+
+upstreamを確認
+
+```git
+$ git branch -vv
+```
+
+
+### リポジトリごとにname/email設定する
+
+```git
+% git config --local user.name "ほげほげたろう"
+% git config --local user.email "mail@example.com"
+```
+
+
+### rebase onto
+```
+                    G - H - I(target-branch)
+                   /
+          D - E - F
+         /
+A - B - C (このコミットの後ろに GHI を繋げたい！)
+```
+```git
+git rebase --onto C F target-branch
+```
+```
+          D - E - F
+         /
+A - B - C - G' - H' - I'(target-branch)
+```
+
+
+
+
+### 覚書
+```git
+git log --stat --decorate --find-renames
+git log --oneline --graph  --all
+git config global --config
+git log --pretty=oneline | awk '{print $1}' | awk '/xxxx/'
+git log -p program/dir
+git log  --author=uqw -p program/dir
+git merge --no-commit --no-ff $BRANCH
+```
+
+### 文字化け関連
+```shell
+$ export LESSCHARSET=utf-8
+$ sudo apt install language-pack-ja
+$ LANG="en_US.UTF-8"
+$ LANGUAGE="en_US:en"
+```
