@@ -6,4 +6,5 @@
     * [git - 備忘録](tech/git.md)
     * [scala - 備忘録](tech/scala.md)
     * [scala - Functor/Applicative/Monado](tech/scala.md)    
+    * [DB - Database初期設定](tech/db_01.md)    
      
