@@ -325,82 +325,9 @@ LoadModule passenger_module /usr/local/lib/ruby/gems/2.4.0/gems/passenger-5.1.11
 ## SELinux環境下で動かすように設定する
 
 
-* [selinux環境下でredmineを動かす](/tech/dir/apache08.md)
+* [selinux環境下でredmineを動かす](/tech/dir/selinux01.md)
 
 結構面倒くさいです…。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
