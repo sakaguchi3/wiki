@@ -1,5 +1,12 @@
 # selinux環境下でredmineを動かす
 
+
+## TL;DR
+SELinuxが入っているとredmineが動かなかったので、コネていかないといけない
+
+
+## やりかた
+
 以下を参考にしてセットアップをする。
 * https://cf-docs.jp-east-1.paas.cloud.global.fujitsu.com/ja/manual/tut-dev/tut-dev/topics/t-dev-vm-install-redmine-selinux.html
 * http://seeku.hateblo.jp/entry/2013/05/31/093124
