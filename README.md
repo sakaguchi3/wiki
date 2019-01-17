@@ -18,7 +18,7 @@
         * [scala - Functor/Applicative/Monad](tech/scala_02.md)
         * [scala - 競技プログラミング](tech/scala_03.md)
         * [java - ジェネリクス](tech/java_001.md)
-        * [servlet - HelloServlet](tech/servlet_001.md))
+        * [servlet - HelloServlet](tech/servlet_001.md)
     * ツール
         * [winscp - keep aliveを送る](tech/win_001.md)
     * インフラ関連
