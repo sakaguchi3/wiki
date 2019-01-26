@@ -13,12 +13,12 @@
     * [scala - 備忘録](tech/scala.md)
 * IT技術系
     * インフラ関連
-        * [DB - Database初期設定](tech/db_01.md)
-        * [DB - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech/db_02.md)    
-        * [DB - insert update](tech/db_03.md)    
-        * [DB - backup/restore](tech/db_04.md)    
-        * [DB - 改行コード削除](tech/db_05.md)    
-        * [DB - トランザクション分離レベル](tech/db_06.md)    
+        * [DB - Database初期設定](tech/db_001.md)
+        * [DB - Lock wait timeout exceeded; try restarting transaction が頻繁に出た時の話](tech/db_002.md)    
+        * [DB - insert update](tech/db_003.md)    
+        * [DB - backup/restore](tech/db_004.md)    
+        * [DB - 改行コード削除](tech/db_005.md)    
+        * [DB - トランザクション分離レベル](tech/db_006.md)    
         * [Linux - Time Zone変更](tech/linux_01.md)    
         * [Linux - 監視コマンド](tech/linux_05.md)    
         * [Linux - webバックアップ・リストア](tech/linux_06.md)    
