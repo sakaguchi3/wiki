@@ -22,6 +22,7 @@
         * [servlet - HelloServlet](tech/servlet_001.md)
     * ツール
         * [winscp - keep aliveを送る](tech/win_001.md)
+        * [windows - 右クリックメニューのキャプチャー](tech/win_002.md)
     * インフラ関連
         * [DB - 権限設定](tech_db/db_010.md)
         * [DB - Database初期設定](tech_db/db_001.md)
@@ -64,7 +65,8 @@
         * [apache - Let's Encrypt自動更新設定](tech_apache/apache_04.md)
         * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
         * [eclipse - 日本語コメントの文字化けを直す](tech/eclipse_001.md)    
-        * [eclipse - workspaceの削除](tech/eclipse_002.md)    
+        * [eclipse - workspaceの削除](tech/eclipse_002.md)
+        * [eclipse - eclipse 改行文字数の設定](tech/eclipse_003.md)            
         * [network - ipv6の話](tech/net_01.md)
         * [ffmpeg](tech/ffmpeg_01.md)    
         * [netcat](tech_linux/linux_015.md)    
