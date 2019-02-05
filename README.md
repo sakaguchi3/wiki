@@ -64,6 +64,7 @@
         * [apache - redmineとslackを連携](tech_apache/apache_06.md)
         * [apache - Let's Encrypt手動更新手順](tech_apache/apache_03.md)
         * [apache - Let's Encrypt自動更新設定](tech_apache/apache_04.md)
+        * [apache -Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法](tech_apache/apache_10.md)
         * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
         * [eclipse - 日本語コメントの文字化けを直す](tech/eclipse_001.md)    
         * [eclipse - workspaceの削除](tech/eclipse_002.md)

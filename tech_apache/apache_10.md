@@ -1,4 +1,4 @@
-# Let's Encrypt - 「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法
+# apache -Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法
 
 
 
