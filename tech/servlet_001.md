@@ -15,11 +15,7 @@ https://qiita.com/Kazunori-Kimura/items/a15a011485ac92074d6f
 ### keyword 
 
 * forward: servlet→jspへの転送
-* setAtribute/getAtribute
-    * servlet->jsp / jsp->servlet
-* post: jsp->servlet ?
-* get: servlet->jsp ?
-
+* ```${fn: split(hoge, newLineChar)}``` :JSPでの改行処理 
 
 ### server.xml
 
