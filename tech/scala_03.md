@@ -28,6 +28,12 @@
 
 * http://www.ne.jp/asahi/hishidama/home/tech/scala/collection/index.html
 
+### 任意のコレクションサイズを作り、初期値を設定する
+
+```scala
+  val bookshelf = Array.fill(25)(0) // 25個の要素を用意して、0で初期化
+```
+
 
 ### index取得
 
