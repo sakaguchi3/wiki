@@ -4,8 +4,11 @@
 
 ## 接続可能なuser確認
 
-```sql  
-mysql> select user, password, host from mysql.user;
+```sql
+# 5.6  
+mysql> SELECT user, password, host from mysql.user;
+# 5.7
+mysql> SELECT user, authentication_string, host FROM mysql.user;
 +----------+-------------------------------------------+-----------------------+
 | user     | password                                  | host                  |
 +----------+-------------------------------------------+-----------------------+
