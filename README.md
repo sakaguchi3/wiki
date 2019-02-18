@@ -48,7 +48,7 @@
         * [Linux - login shellの変更](tech_linux/linux_008.md)    
         * [Linux - find](tech_linux/linux_009.md)    
         * [Linux - rsync](tech_linux/linux_010.md)    
-        * [Linux - zip/unzip](tech_linux/linux_011.md)    
+        * [Linux - zip/unzip](tech_linux/linux_011.md)
         * [Linux - firewalld](tech_linux/linux_012.md)    
         * [Linux - CentOS7にMySQL5.6をインストール](tech_linux/linux_013.md)    
         * [Linux - CentOS7にMySQL5.7をインストール](tech_linux/linux_014.md)
