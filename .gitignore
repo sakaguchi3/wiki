@@ -2,6 +2,9 @@
 
 # inttelij
 .idea
+.project
+
 
 temp.md
 temp.sql
+tmp*.md

@@ -14,8 +14,15 @@
 * [scala - 備忘録](tech/scala_01.md)
 
 
-## Linux
+## Mac
 
+* [Mac - ショートカットキー](tech_linux/mac_004.md)
+* [Mac - mongodbをセットアップしたときのメモ @ Mac](tech_linux/mac_002.md)
+* [Mac - redisをインストールした時のめも @ Mac](tech_linux/mac_001.md)
+* [Mac - eclipseを多重起動](tech_linux/mac_003.md)
+
+
+## Linux
 
 * [MySQL - 権限設定](tech_db/msyql_010.md)
 * [MySQL - Database初期設定](tech_db/msyql_001.md)
@@ -44,8 +51,6 @@
 * [Linux - MySQL5.7をセットアップした時のメモ @ Ubuntu18.04](tech_linux/linux_016.md)
 * [Linux - mongodbをセットアップしたときのメモ @ Ubuntu18.04](tech_linux/linux_017.md)
 * [Linux - redisをインストールしたときのメモ @ Ubuntu18.04](tech_linux/linux_018.md)
-* [Mac - mongodbをセットアップしたときのメモ @ Mac](tech_linux/mac_002.md)
-* [Mac - redisをインストールした時のめも @ Mac](tech_linux/mac_001.md)
 * [AWS - awscli で s3 を操作する@ Ubuntu18.04](tech_linux/aws_001.md)
 * [mailman - spamメールをフィルタする](tech_linux/mailman_001.md)
 * [sudoer周りの設定 @ CentOS7](tech_linux/sudo_0001.md)      
@@ -87,7 +92,6 @@
 * [apache - Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法](tech_apache/apache_10.md)
 * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
 * [network - ipv6の話](tech/net_01.md)
-* [macでeclipseを多重起動](tech_linux/mac_003.md)
 * [eclipseにUMLプラグインを入れる](tech/eclipse_004.md)
 * [ffmpeg](tech/ffmpeg_01.md)    
 * [netcat](tech_linux/linux_015.md)    
