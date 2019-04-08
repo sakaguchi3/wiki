@@ -44,7 +44,7 @@
 * [Linux - MySQL5.7をセットアップした時のメモ @ Ubuntu18.04](tech_linux/linux_016.md)
 * [Linux - mongodbをセットアップしたときのメモ @ Ubuntu18.04](tech_linux/linux_017.md)
 * [Linux - redisをインストールしたときのメモ @ Ubuntu18.04](tech_linux/linux_018.md)
-* [Mac - mongodbをセットアップしたときのメモ @ Ubuntu18.04](tech_linux/mac_002.md)
+* [Mac - mongodbをセットアップしたときのメモ @ Mac](tech_linux/mac_002.md)
 * [Mac - redisをインストールした時のめも @ Mac](tech_linux/mac_001.md)
 * [AWS - awscli で s3 を操作する@ Ubuntu18.04](tech_linux/aws_001.md)
 * [mailman - spamメールをフィルタする](tech_linux/mailman_001.md)
