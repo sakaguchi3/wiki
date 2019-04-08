@@ -87,6 +87,8 @@
 * [apache - Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法](tech_apache/apache_10.md)
 * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
 * [network - ipv6の話](tech/net_01.md)
+* [macでeclipseを多重起動](tech_linux/mac_003.md)
+* [eclipseにUMLプラグインを入れる](tech/eclipse_004.md)
 * [ffmpeg](tech/ffmpeg_01.md)    
 * [netcat](tech_linux/linux_015.md)    
 * [git - tag](tech_git/git_0002.md)    
