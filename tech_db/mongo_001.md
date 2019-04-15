@@ -98,6 +98,11 @@ db.hogeCollection.insert({name: "Ushiyama", age:"99"})
 db.hogeCollection.find()
 ```
 
+```mongodb
+db.hogeCollection.find({id : "hogekey"});
+```
+
+
 更新
 
 ```mongodb
