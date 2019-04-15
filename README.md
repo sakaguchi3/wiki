@@ -11,7 +11,6 @@
 
 * [vim - 備忘録](tech/vim.md)     
 * [git - 備忘録](tech_git/git_0001.md)
-* [scala - 備忘録](tech/scala_01.md)
 
 
 ## Mac
@@ -113,6 +112,7 @@
     * [MyBatis - 設定ファイル](tech/mybatis_002.md)
     * [MyBatis - bulk insert](tech/mybatis_001.md)
     * [MyBatis - “Table name pattern can not be NULL or empty”in java が起きた時の話](tech/mybatis_003.md)
+    * [scala - 備忘録](tech/scala_01.md)    
     * [scala - Functor/Applicative/Monad](tech/scala_02.md)    
     * [scala - 競技プログラミング](tech/scala_03.md)
     * [java - ジェネリクス1](tech/java_001.md)
