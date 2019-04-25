@@ -1,8 +1,9 @@
 # mongodb - import from js
 
 
+### 方法1: mongoにログインしてからjsファイルをロードする
 
-bash からの処理
+mongo shellにログイン
 
 ```bash
 $ mongo --host mytest.localdomain
@@ -10,7 +11,7 @@ $ mongo --host mytest.localdomain
 
 
 
-mongodb内での処理
+mongo shellからjsファイルをロードする
 
 ```mongo
 > use mydb
@@ -19,6 +20,15 @@ mongodb内での処理
 
 
 
+### 方法2: mongoimportを使ってimport
+
+
+
+```bash
+$ mongoimport --db mydb --collection  mydb_collection  --file ./mydump.json  --host mongodb.example.com
+```
+
+mydb, mydb_collection を適宜変更
 
 
 
