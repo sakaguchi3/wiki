@@ -39,7 +39,7 @@
 * [MySQL - SQLの結果をファイルにアウトプットする](tech_db/msyql_007.md)    
 * [MySQL - Error Code: 1170. BLOB/TEXT column 'xxxx' used in key specification without a key length の対処法](tech_db/msyql_008.md)    
 * [mongodb - mongodb入門](tech_db/mongo_001.md)
-* [mongodb - import from js](tech_db/mongo_02.md)
+* [mongodb - import from js](tech_db/mongo_002.md)
 * [HBase - 環境構築](tech/hbase_001.md)                    
 * [HBase - 入門](tech/hbase_002.md)                    
 * [redis - redis入門](tech_db/redis_001.md)    
