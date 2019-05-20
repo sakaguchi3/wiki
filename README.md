@@ -101,6 +101,7 @@
 * [apache - Let's Encrypt自動更新設定 @Ubuntu](tech_apache/apache_04.md)
 * [apache - Let's Encrypt で「Problem binding to port 80: Could not bind to IPv4 or IPv6.. Skipping.」の対処法](tech_apache/apache_10.md)
 * [apache - SSL証明書作成(有料版のやつ)](tech_apache/apache_02.md)
+* [openssl](tech/ssl_0001.md)
 * [network - ipv6の話](tech/net_01.md)
 * [ipコマンド](tech/ip_001.md)
 * [ffmpeg](tech/ffmpeg_01.md)    
