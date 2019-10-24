@@ -28,7 +28,7 @@
 * [Macでhostsファイルを更新](tech_linux/mac_005.md)
 * [MacにVirtualBoxをインストール](tech_linux/mac_006.md)
 * [Macでボイスオーバを起動させない](tech_linux/mac_009.md)
-
+* [Macでファイル暗号](tech_linux/gpg_001.md)      
 
 ## Linux
 
