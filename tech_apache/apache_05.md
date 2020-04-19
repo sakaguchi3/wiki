@@ -1,7 +1,9 @@
 # [apache]アクセスコントロール
 
 
+
 ## 2.2系
+
 allow→deny
 ```apache
 <Directory "/home/www">
@@ -22,7 +24,10 @@ Allow  from 1.1.64.0/18
 Allow from 2001:df0:467::/48
 ```
 
+
+
 #### htaccess設定例
+
 ```apache
 
 <IfModule mod_rewrite.c>
@@ -69,12 +74,21 @@ Allow from 2001:df0:467::/48
 order deny,allow
 deny from all
 
+
+# bot 
+SetEnvIf User-Agent "Pingdom.com_bot_version_.*"  allowbot
+allow from env=allowbot 
+
+# ip addr
 allow from 127.0.0.1/32
 allow from 1.0.16.0/20
 allow from 1.0.64.0/18
 ```
 
+
+
 ## 2.4系
+
 allow→deny
 ```apache
 <Directory "/home/www">
@@ -95,6 +109,27 @@ Require ip 1.112.0.0/14
 Require ip 2001:df0:467::/48
 ```
 
+deny設定
+```apache
+Require not ip 1.112.0.0/14
+Require not ip 2001:df0:467::/48
+```
+
+allow user-agent
+```
+SetEnvIf User-Agent "Pingdom.com_bot_version_.*"  allowbot
+Require env allowbot 
+```
+
+allow user-agent(もうちょっとかっこよく)
+```
+Require "${USER_AGENT Pingdom\.com_bot_version_.*"
+```
+
+
+
 # 外部リンク
 * [Upgrading to 2.4 from 2.2](https://httpd.apache.org/docs/2.4/upgrading.html)
 * [【apache】2.4系はアクセス許可の設定の書き方が違うので注意](https://www.softel.co.jp/blogs/tech/archives/3142)
+* http://blog.matsumoto-r.jp/?p=3482
+
