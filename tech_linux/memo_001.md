@@ -29,6 +29,17 @@ sudo chown apache:apache  private/sec_example.com_nopass.pem
 sudo tar czf hoge.tgz  fuga --exclude "tmp/*"
 ```
 
+docker
+```bash
+docker-compose --verbose -f docker-compose.development.yml
+docker-compose --verbose -f docker-compose.development.yml stop
+docker-compose --verbose -f docker-compose.development.yml rm
+docker volume ls 
+docker volume rm $(docker volume ls -qf dangling=true)
+```
+
+
+
 ### php72をソースからインストールしたときのメモ
 
 configure
