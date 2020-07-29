@@ -1,18 +1,32 @@
-# urandom 
+# 乱数/パスワード生成 | rand, passwd 
 
 
 
-## 適当なパスワードの生成
+## urandom | 適当なパスワードの生成
 
+```bash
+cat /dev/random | base64 | fold -w [桁数] | head -n [生成する個数]
+```
 
 ``` 
 cat /dev/random | base64 | fold -w 32 | head -n 50
 ```
 
-`fold -w [桁数]`
-`head -n [パスワードの個数]`
+使える文字を指定する
+```bash
+cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 16 | head -n 2 | sort | uniq
+```
 
 
+## base64作成 
 
+```bash
+openssl rand -base64 31
+```
 
+web safe にする
+
+```bash
+openssl rand -base64 31 |  tr -- '+/=' '-_ '
+``` 
 
