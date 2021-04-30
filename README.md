@@ -43,6 +43,7 @@
 * [MySQL - ランザクション分離レベル](tech_db/msyql_006.md)    
 * [MySQL - SQLの結果をファイルにアウトプットする](tech_db/msyql_007.md)    
 * [MySQL - Error Code: 1170. BLOB/TEXT column 'xxxx' used in key specification without a key length の対処法](tech_db/msyql_008.md)    
+* [MySQL -  columnの定義を修正する](tech_db/msyql_011.md)
 * [mongodb - mongodb入門](tech_db/mongo_001.md)
 * [mongodb - import from js](tech_db/mongo_002.md)
 * [HBase - 環境構築](tech/hbase_001.md)                    
