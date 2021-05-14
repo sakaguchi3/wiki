@@ -14,7 +14,8 @@ select convert_tz(
 
 
 ```mysql
-set timezone='asia/tokyo' ;
+show variables like '%time_zone%';
+set time_zone='asia/tokyo';
 select now();
 ```
 
