@@ -25,9 +25,12 @@
 * [Macでボイスオーバを起動させない](tech_linux/mac_009.md)
 * [Macでファイル暗号](tech_linux/gpg_001.md)      
 
+## AlmaLinux
+
+* [AlmaLinux8.0 - partition作成〜フォーマット](almalinux/almalinux_fdisk.md)
+* 
+ 
 ## Linux
-
-
 * [言語別乱数生成](tech_linux/rand_001.md)
 * [memo](tech_linux/memo_001.md)
 * [pythonのバージョンを切り替える - pyenv @ubuntu18.04](tech_linux/pytho_001.md)
