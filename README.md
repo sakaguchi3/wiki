@@ -4,6 +4,9 @@
 ## aws 
 * [aws lambda - pythonデプロイの作成](doc/aws-lambda/lambda01.md)
 
+## linux
+* [時刻同期 - ubuntu, manjaro](doc/linux/timedatectl.md)
+
 ## AlmaLinux
 * [AlmaLinux8.0 - partition作成〜フォーマット](doc/almalinux/almalinux_fdisk.md)
 * [AlmaLinux8.0 - ユーザ追加](doc/almalinux/almalinux_add_usr.md)
