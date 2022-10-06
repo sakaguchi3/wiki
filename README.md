@@ -45,4 +45,5 @@
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [git - 備忘録](tech_git/git_0001.md)
+* [gitlab - gitlabでdeploy tokenを使う](tech_git/git_0003.md)
 * [古い記事](readme_old.md)
