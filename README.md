@@ -1,5 +1,8 @@
 # 備忘録
 
+## compress
+
+* [7z](doc/compress/7z.md)
 
 ## aws 
 * [aws lambda - pythonデプロイの作成](doc/aws-lambda/lambda01.md)
