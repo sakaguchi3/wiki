@@ -7,6 +7,9 @@
 ## aws 
 * [aws lambda - pythonデプロイの作成](doc/aws-lambda/lambda01.md)
 
+## azure
+* [azure cli - azコマンドでblobを操作する](doc/azure/azure_blob_01.md)
+
 ## linux
 * [時刻同期 - ubuntu, manjaro](doc/linux/timedatectl.md)
 
