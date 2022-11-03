@@ -31,9 +31,9 @@ docker run -it --rm -v $(pwd):/w \
   -out /w/file
 ```
 
-## openssl1.0.2から1.1.0に変えたら古いファイルが復号化できなくなった
+## openssl1.0.2から1.1.0に変えたら古いファイルが復号化できなくなったときの対処法
 
-1.1.0でdigest関数がmd5からsha1に変わったためエラーが起きるようになった。
+1.1.0でdigest関数がmd5からsha1に変わったためエラーが起きるようになう。
 ```bash
 openssl enc -d -aes-256-cbc -pass file:/passwd.txt \
  -m md5 \
