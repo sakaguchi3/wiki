@@ -49,5 +49,6 @@
 * [openssl - ファイルの暗号化](doc/other/openssl_enc_file.md)
 * [gpg - ファイルの暗号化](doc/other/gpg_enc_file.md)
 * [vim - 備忘録](tech/vim_001.md)
+* [sslstoreで証明書を購入するやり方](doc/other/ssl_store_01.md)
 
 * [古い記事](readme_old.md)
