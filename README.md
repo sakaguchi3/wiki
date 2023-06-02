@@ -2,9 +2,9 @@
 
 ## 暗号化, セキュリティ
 
-* [openssl - ファイルの暗号化, 共通鍵方式](doc/other/openssl_enc_file.md)
-* [openssl - ファイルの暗号化, 公開鍵方式](doc/other/openssl_enc_file2.md)
-* [openssl - ファイルの暗号化, smime](doc/other/openssl_enc_file3.md)
+* [openssl - ファイルの暗号化, 共通鍵方式](doc/openssl/openssl_enc_file1.md)
+* [openssl - ファイルの暗号化, 公開鍵方式](doc/openssl//openssl_enc_file2.md)
+* [openssl - ファイルの暗号化, smime](doc/openssl/openssl_enc_file3.md)
 * [openssl 秘密鍵のパスワードを変更する](doc/openssl/openssl_change_passwd.md)
 * [gpg - master key, sub key の作成](doc/gpg/gpg_gen_key_01.md)
 * [gpg - ファイルの暗号化](doc/gpg/gpg_enc_file.md)
@@ -23,13 +23,14 @@
 
 ## web server
 
-* [csrの作成手順 - tag:ssl, csr, openssl](doc/other/openssl_csr.md)
+* [csrの作成手順 - tag:ssl, csr, openssl](doc/openssl/openssl_csr.md)
 * [sslstoreで証明書を購入する手順](doc/openssl/ssl_store_01.md)
 * [apache, nginxでhttpsの設定 - tag:ssl, openssl](doc/other/https.md)
 
 ## docker
 
 * [limaでArchLinuxを使う](doc/docker/lima.md)
+* [lima](doc/docker/lima01.md)
 * [rdctl, RancherDesktop](doc/docker/rdctl.md)
 
 ## linux
@@ -101,7 +102,6 @@
 
 * [zstd - tag:圧縮, 解凍, compress](tech/zstd.md)
 * [vim - 備忘録](tech/vim_001.md)
-* [lima](doc/other/lima01.md)
 
 ## aws
 
