@@ -30,6 +30,7 @@
 ## docker
 
 * [limaでArchLinuxを使う](doc/docker/lima.md)
+* [rdctl, RancherDesktop](doc/docker/rdctl.md)
 
 ## linux
 
