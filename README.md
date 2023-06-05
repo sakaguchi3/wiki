@@ -24,7 +24,7 @@
 ## web server
 
 * [csrの作成手順 - tag:ssl, csr, openssl](doc/other/openssl_csr.md)
-* [sslstoreで証明書を購入する手順](doc/other/ssl_store_01.md)
+* [sslstoreで証明書を購入する手順](doc/openssl/ssl_store_01.md)
 * [apache, nginxでhttpsの設定 - tag:ssl, openssl](doc/other/https.md)
 
 ## linux
