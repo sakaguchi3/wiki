@@ -2,10 +2,13 @@
 
 ## サーバサイドの公開鍵のチェク
 
-サーバ(host_keys)のフィンガープリントを確認
+サーバ(host_keys)のフィンガープリントを確認。  
 
 ```bash
+# bashの場合
 ff=/etc/ssh/*.pub
+# zshの場合
+#ff=(/etc/ssh/*.pub)
 
 for f in $ff ; do
  ssh-keygen -l -f $f
