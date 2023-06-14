@@ -51,6 +51,7 @@
 ## ssh
 
 * [ssh-agent](doc/ssh/sshagent.md)
+* [ssh鍵のfingerprintを確認, kw:ssh-key](doc/ssh/fingerprint.md)
 * [ssh - ユーザごとに接続ipをコントロールする](doc/ssh/ssh_03.md)
 
 ## git
