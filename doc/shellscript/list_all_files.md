@@ -10,6 +10,14 @@ for f in ${files[@]} ; do
 done        
 ```
 
+これでも大丈夫っぽい
+
+```bash
+for f in $files ; do
+ echo "$f"
+done        
+```
+
 ## ファイル名だけを取得する
 
 ```bash
