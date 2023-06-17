@@ -45,7 +45,7 @@
 
 ## shell
 
-* [shellscriptでファイル一覧を取得してループ処理をする, tag:bash](doc/shellscript/list_all_files.md)
+* [shellscriptでファイル一覧を取得してループ処理をする, tag:bash,for](doc/shellscript/list_all_files.md)
 * [shellscriptでファイル、ディレクトリが存在するか確認する, tag:file,directory,link](doc/shellscript/check_path.md)
 
 ## ssh
