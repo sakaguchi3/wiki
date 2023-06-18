@@ -41,6 +41,7 @@
 * [sudoers](doc/linux/sudoers.md)
 * [useradd, ユーザの追加](doc/linux/useradd.md)
 * [group](doc/linux/group.md)
+* [xxhsum, 高速ハッシュアルゴリズムxxHashを使う](doc/linux/xxhsum.md)
 
 ## shell
 
