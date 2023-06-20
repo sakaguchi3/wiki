@@ -44,3 +44,9 @@ xsel -cp
 # clipboard
 xsel -cb
 ```
+
+## Linux xclip
+xselの代わりにxclipを使ってもコピペできる
+```bash
+pwd | xclip -selection clipboard
+```

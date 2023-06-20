@@ -13,7 +13,7 @@
 * [gpg - 鍵サーバに公開鍵をアップロード](doc/gpg/gpg_keyserver.md)
 * [gpg - 鍵の削除](doc/gpg/remove.md)
 * [gpg - 署名, keyword:sign](doc/gpg/sign.md)
-* [clibpaord - コピペ, xsel, xclip, xpaste, pbcopy, pbpaste](doc/other/clipboard.md)
+* [clibpaord - tag: コピー, ペースト, copy, paste, コピペ, xsel, xclip, xpaste, pbcopy, pbpaste](doc/other/clipboard.md)
 * [7z](doc/compress/7z.md)
 * [zip](doc/compress/zip.md)
 * [rar](doc/compress/rar.md)
