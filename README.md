@@ -96,6 +96,7 @@
 ## python
 
 * [python - venv](doc/python/venv.md)
+* [pythonでパターンマッチング, tag:pattern,match](doc/python/pattern_matching.md)
 
 ## find
 
