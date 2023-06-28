@@ -10,29 +10,4 @@ rclone lcd remote:path
 rclone lsl remote:path
 
 rclone move source dist
-
-
-
 ```
-
-
-
-```bash
-```
-
-
-
-```bash
-```
-
-
-
-```bash
-```
-
-
-<!--
-```bash
-```
-
--->
