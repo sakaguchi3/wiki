@@ -103,8 +103,9 @@
 * [find - atime, mtime, ctime](doc/find/find_time.md)
 * [find - xargs](doc/find/find_xargs.md)
 
-## その他
+## その他, other
 
+* [fdupes 重複ファイルの検索](doc/other/fdupes.md)
 * [zstd - tag:圧縮, 解凍, compress](tech/zstd.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [rclone](doc/other/rclone.md)
