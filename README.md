@@ -53,6 +53,10 @@
 * [git - 備忘録](tech_git/git_0001.md)
 * [gitlab - gitlabでdeploy tokenを使う](tech_git/git_0003.md)
 
+## ArchLinux
+
+* [ArchLinuxでyayを使う, keyword:aur](doc/archlinux/yay.md)
+
 ## AlmaLinux
 
 * [AlmaLinux8.0 - partition作成〜フォーマット](doc/almalinux/almalinux_fdisk.md)
