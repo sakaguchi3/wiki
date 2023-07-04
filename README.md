@@ -11,6 +11,7 @@
 * [gpg - 鍵のimport/export](doc/gpg/gpg_import_key.md)
 * [gpg - 鍵サーバに公開鍵をアップロード](doc/gpg/gpg_keyserver.md)
 * [gpg - 鍵の削除](doc/gpg/remove.md)
+* [gpg - 署名](doc/gpg/sign.md)
 * [7z](doc/compress/7z.md)
 * [zip](doc/compress/zip.md)
 * [rar](doc/compress/rar.md)
