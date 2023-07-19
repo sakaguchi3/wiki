@@ -12,12 +12,15 @@ python3 -m venv <name>
 ```bash
 source <name>/bin/activate
 ```
+
 これをやるとterminalに次のように表示される
+
 ```
 (venv) #:
 ```
 
 ## deactivate
+
 ```bash
 deactivate
 ```
