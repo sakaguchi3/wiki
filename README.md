@@ -11,7 +11,7 @@
 * [gpg - 鍵のimport/export](doc/gpg/gpg_import_key.md)
 * [gpg - 鍵サーバに公開鍵をアップロード](doc/gpg/gpg_keyserver.md)
 * [gpg - 鍵の削除](doc/gpg/remove.md)
-* [gpg - 署名](doc/gpg/sign.md)
+* [gpg - 署名, keyword:sign](doc/gpg/sign.md)
 * [7z](doc/compress/7z.md)
 * [zip](doc/compress/zip.md)
 * [rar](doc/compress/rar.md)
@@ -41,6 +41,7 @@
 * [sudoers](doc/linux/sudoers.md)
 * [useradd, ユーザの追加](doc/linux/useradd.md)
 * [group](doc/linux/group.md)
+* [xxhsum, 高速ハッシュアルゴリズムxxHashを使う](doc/linux/xxhsum.md)
 
 ## shell
 
@@ -57,6 +58,7 @@
 * [git - lfs(large file system)](doc/git/git_lfs.md)
 * [git - revert](doc/git/git_revert.md)
 * [git - 備忘録](tech_git/git_0001.md)
+* [git - gitでauthor, comitterを指定してcommitする](doc/git/author_comitter.md)
 * [gitlab - gitlabでdeploy tokenを使う](tech_git/git_0003.md)
 
 ## ArchLinux
