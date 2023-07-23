@@ -62,4 +62,4 @@
 
 ## apache, nginxの設定
 
-[see](./https.md)
+[see](/doc/other/https.md)
