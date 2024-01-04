@@ -77,6 +77,8 @@
 * [protonvpn](doc/archlinux/protonvpn.md)
 * [flatpak](doc/archlinux/flatpak.md)
 * [snap](doc/archlinux/snap.md)
+* [vpn wireguard](doc/archlinux/wireguard.md)
+* [ipv6有効化/無効化](doc/archlinux/ipv6_enable.md)
 * [固定ipv6を設定](doc/archlinux/ip_static.md)
 * [Arch日本語環境](doc/archlinux/arch_jp.md)
 * [Arhcでアップデートしたら `Validating source files with sha256sums...` エラーが出たときの対処法](doc/archlinux/error01.md)
