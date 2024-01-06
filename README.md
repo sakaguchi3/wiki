@@ -110,6 +110,7 @@
 ## python
 
 * [python - venv](doc/python/venv.md)
+* [pyenv](doc/python/pyenv.md)
 * [python - poetry](doc/python/poetry.md)
 * [pythonでパターンマッチング, tag:pattern,match](doc/python/pattern_matching.md)
 
