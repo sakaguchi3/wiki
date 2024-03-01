@@ -43,7 +43,7 @@
 * [btrfs - scrub](doc/linux/btrfs_scrub.md)
 * [sudoers](doc/linux/sudoers.md)
 * [useradd, ユーザの追加](doc/linux/useradd.md)
-* [group](doc/linux/group.md)
+* [usergroup](doc/linux/group.md)
 * [xxhsum, 高速ハッシュアルゴリズムxxHashを使う](doc/linux/xxhsum.md)
 * [etckeeper - /etc/配下をgitで管理](doc/other/etckeeper.md)
 
