@@ -23,6 +23,7 @@
 * [vim 暗号化, encrypt](doc/security/vim_encrypt.md)
 * [nvim 暗号化, encrypt](doc/security/nvim_encrypt.md)
 * [veracrypt](doc/security/veracrypt.md)
+* [git-crypt](doc/security/git_crypt.md)
 
 ## web server
 
