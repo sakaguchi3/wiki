@@ -127,6 +127,7 @@
 * [vim - 備忘録](tech/vim_001.md)
 * [rclone](doc/other/rclone.md)
 * [tmux](doc/other/tmux.md)
+* [コマンドラインからQRコードを扱いたい, tag: qr code](doc/other/qrcode.md)
 
 ## aws
 
