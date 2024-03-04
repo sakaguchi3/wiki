@@ -128,6 +128,7 @@
 * [rclone](doc/other/rclone.md)
 * [tmux](doc/other/tmux.md)
 * [コマンドラインからQRコードを扱いたい, tag: qr code](doc/other/qrcode.md)
+* [mac ショートカットキー tag: shortcut](doc/other/mac_shortcut.md)
 
 ## aws
 
