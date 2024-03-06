@@ -77,6 +77,7 @@
 * [flatpak](doc/archlinux/flatpak.md)
 * [snap](doc/archlinux/snap.md)
 * [Arch日本語環境](doc/archlinux/arch_jp.md)
+* [Arhcでアップデートしたら `Validating source files with sha256sums...` エラーが出たときの対処法](doc/archlinux/error01.md)
 
 ## AlmaLinux
 
