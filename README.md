@@ -126,6 +126,7 @@
 * [clibpaord - tag: コピー, ペースト, copy, paste, コピペ, xsel, xclip, xpaste, pbcopy, pbpaste](doc/other/clipboard.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [rclone](doc/other/rclone.md)
+* [tmux](doc/other/tmux.md)
 
 ## aws
 
