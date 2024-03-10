@@ -71,7 +71,7 @@
 
 ## ArchLinux
 
-* [ArchLinuxでyayを使う, tag: aur](doc/archlinux/yay.md)
+* [ArchLinuxでyayを使う, tag: aur, pacman](doc/archlinux/yay.md)
 * [protonvpn](doc/archlinux/protonvpn.md)
 * [flatpak](doc/archlinux/flatpak.md)
 * [snap](doc/archlinux/snap.md)

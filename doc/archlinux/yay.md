@@ -38,6 +38,13 @@ remove
 yay -Rns [package_name]
 ```
 
+## その他
+
+インストール済み一覧
+```bash
+yay -Sl
+```
+
 ## link
 
 * <https://linuxcommandlibrary.com/man/yay>
@@ -45,5 +52,5 @@ yay -Rns [package_name]
 <!--
 ```bash
 ```
-
+a
 -->
