@@ -75,6 +75,7 @@
 * [protonvpn](doc/archlinux/protonvpn.md)
 * [flatpak](doc/archlinux/flatpak.md)
 * [snap](doc/archlinux/snap.md)
+* [Arch日本語環境](doc/archlinux/arch_jp.md)
 
 ## AlmaLinux
 
