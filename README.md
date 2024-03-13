@@ -111,6 +111,7 @@
 
 ## その他, other
 
+* [bcachefs](doc/other/bcachefs.md)
 * [btrfs](doc/other/btrfs.md)
 * [zfs](doc/other/zfs.md)
 * [fdupes 重複ファイルの検索](doc/other/fdupes.md)
