@@ -41,7 +41,19 @@ zfs change-key \
 
 * <https://openzfs.github.io/openzfs-docs/man/master/8/zfs-change-key.8.html>
 
+## install
 
+```bash
+## zfsコマンド
+yay -S utils-git
+## encrypt
+yay -S zfs-dkms-git
+```
+
+モジュール有効化
+```bash
+modprobe zfs
+```
 
 <!--
 ```bash
