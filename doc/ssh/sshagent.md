@@ -3,13 +3,13 @@
 起動
 
 ```bash
-eval `ssh-agent`
+eval $(ssh-agent)
 ```
 
 停止
 
 ```bash
-eval `ssh-agent -k`
+eval $(ssh-agent -k)
 ```
 
 鍵の追加
