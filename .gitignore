@@ -14,3 +14,4 @@ temp.sql
 tmp*.md
 gitignoredir/
 tags
+_ignore
