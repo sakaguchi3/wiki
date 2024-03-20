@@ -72,6 +72,8 @@
 
 * [ArchLinuxでyayを使う, keyword:aur](doc/archlinux/yay.md)
 * [protonvpn](doc/archlinux/protonvpn.md)
+* [flatpak](doc/archlinux/flatpak.md)
+* [TODO: snap](doc/archlinux/snap.md)
 
 ## AlmaLinux
 
