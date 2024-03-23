@@ -12,7 +12,7 @@
 * [gpg - 鍵のimport/export](doc/gpg/gpg_import_key.md)
 * [gpg - 鍵サーバに公開鍵をアップロード](doc/gpg/gpg_keyserver.md)
 * [gpg - 鍵の削除](doc/gpg/remove.md)
-* [gpg - 署名, keyword:sign](doc/gpg/sign.md)
+* [gpg - 署名, tag: sign](doc/gpg/sign.md)
 * [7z](doc/compress/7z.md)
 * [zip](doc/compress/zip.md)
 * [rar](doc/compress/rar.md)
@@ -58,7 +58,7 @@
 
 * [ssh client](doc/ssh/)
 * [ssh-agent](doc/ssh/sshagent.md)
-* [ssh鍵のfingerprintを確認, kw:ssh-key](doc/ssh/fingerprint.md)
+* [ssh鍵のfingerprintを確認, tag: ssh-key](doc/ssh/fingerprint.md)
 * [sshd - ユーザごとに接続ipをコントロールする](doc/ssh/ssh_03.md)
 
 ## git
@@ -71,7 +71,7 @@
 
 ## ArchLinux
 
-* [ArchLinuxでyayを使う, keyword:aur](doc/archlinux/yay.md)
+* [ArchLinuxでyayを使う, tag: aur](doc/archlinux/yay.md)
 * [protonvpn](doc/archlinux/protonvpn.md)
 * [flatpak](doc/archlinux/flatpak.md)
 * [snap](doc/archlinux/snap.md)
