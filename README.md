@@ -118,6 +118,7 @@
 * [btrfs](doc/other/btrfs.md)
 * [zfs](doc/other/zfs.md)
 * [luks](doc/other/luks.md)
+* [binary file](doc/other/binary.md)
 * [fdupes 重複ファイルの検索](doc/other/fdupes.md)
 * [zstd - tag:圧縮, 解凍, compress](tech/zstd.md)
 * [clibpaord - tag: コピー, ペースト, copy, paste, コピペ, xsel, xclip, xpaste, pbcopy, pbpaste](doc/other/clipboard.md)
