@@ -36,10 +36,10 @@ bcachefs subvolume create $mnt1/volume1
 
 ## link
 
-<https://bcachefs.org/Encryption/>
-<https://wiki.archlinux.jp/index.php/Bcachefs>
-<https://nixos.wiki/wiki/Bcachefs>
-<https://wiki.gentoo.org/wiki/Bcachefs>
+* <https://bcachefs.org/Encryption/>
+* <https://wiki.archlinux.jp/index.php/Bcachefs>
+* <https://nixos.wiki/wiki/Bcachefs>
+* <https://wiki.gentoo.org/wiki/Bcachefs>
 
 
 
