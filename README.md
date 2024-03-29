@@ -13,7 +13,6 @@
 * [gpg - 鍵サーバに公開鍵をアップロード](doc/gpg/gpg_keyserver.md)
 * [gpg - 鍵の削除](doc/gpg/remove.md)
 * [gpg - 署名, keyword:sign](doc/gpg/sign.md)
-* [clibpaord - tag: コピー, ペースト, copy, paste, コピペ, xsel, xclip, xpaste, pbcopy, pbpaste](doc/other/clipboard.md)
 * [7z](doc/compress/7z.md)
 * [zip](doc/compress/zip.md)
 * [rar](doc/compress/rar.md)
@@ -56,7 +55,7 @@
 
 ## ssh
 
-* [ssh client](doc/ssh/ssh_01.md)
+* [ssh client](doc/ssh/)
 * [ssh-agent](doc/ssh/sshagent.md)
 * [ssh鍵のfingerprintを確認, kw:ssh-key](doc/ssh/fingerprint.md)
 * [sshd - ユーザごとに接続ipをコントロールする](doc/ssh/ssh_03.md)
@@ -118,6 +117,7 @@
 * [luks](doc/other/luks.md)
 * [fdupes 重複ファイルの検索](doc/other/fdupes.md)
 * [zstd - tag:圧縮, 解凍, compress](tech/zstd.md)
+* [clibpaord - tag: コピー, ペースト, copy, paste, コピペ, xsel, xclip, xpaste, pbcopy, pbpaste](doc/other/clipboard.md)
 * [vim - 備忘録](tech/vim_001.md)
 * [rclone](doc/other/rclone.md)
 
