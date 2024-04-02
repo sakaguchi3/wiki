@@ -57,10 +57,9 @@ linux   /vmlinuz-linux-lts
 initrd  /intel-ucode.img
 initrd  /initramfs-linux-lts.img
 options cryptdevice=PARTUUID=*****
-
 ```
 
-これは必要なのかどうか不明
+この処理は必要なのかどうか不明
 
 ```bash
 bootctl update
