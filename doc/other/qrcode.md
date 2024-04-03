@@ -1,5 +1,7 @@
 # コマンドラインからQRコードを扱いたい
 
+## qrtool
+
 install
 * <https://sorairolake.github.io/qrtool/book/install.html>
 
@@ -13,6 +15,13 @@ qrtool decode a.png
 
 xxxxxxxx
 ```
+
+## zbarimg
+
+```bash
+zbarimg -q a.png 
+```
+
 
 <!--
 ```bash
