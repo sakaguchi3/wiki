@@ -107,6 +107,7 @@
 ## python
 
 * [python - venv](doc/python/venv.md)
+* [python - poetry](doc/python/poetry.md)
 * [pythonでパターンマッチング, tag:pattern,match](doc/python/pattern_matching.md)
 
 ## find
@@ -142,4 +143,3 @@
 * [azure cli - azコマンドでblobを操作する](doc/azure/azure_blob_01.md)
 
 * [古い記事](readme_old.md)
-
