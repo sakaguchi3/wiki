@@ -12,6 +12,8 @@ echo 'a'  dir/file2
 
 ```bash
 tar caf dir.tar.zst dir
+# このやり方でもできる
+tar -Izstd -cf dir.tar.zst dir
 ```
 
 ### ディレクトリ解凍
