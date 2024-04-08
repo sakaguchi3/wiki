@@ -130,6 +130,7 @@
 * [tmux](doc/other/tmux.md)
 * [コマンドラインからQRコードを扱いたい, tag: qr code](doc/other/qrcode.md)
 * [mac ショートカットキー tag: shortcut](doc/other/mac_shortcut.md)
+* [latex sample](other/latex_sample.md)
 
 ## aws
 
@@ -140,8 +141,4 @@
 * [azure cli - azコマンドでblobを操作する](doc/azure/azure_blob_01.md)
 
 * [古い記事](readme_old.md)
-
-## latex test
-* [latex1](other/test1.md)
-* [latex2](other/test2.md)
 
