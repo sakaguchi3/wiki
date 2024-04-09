@@ -140,3 +140,8 @@
 * [azure cli - azコマンドでblobを操作する](doc/azure/azure_blob_01.md)
 
 * [古い記事](readme_old.md)
+
+## latex test
+* [latex1](other/test1.md)
+* [latex2](other/test2.md)
+
