@@ -46,6 +46,7 @@
 * [useradd, ユーザの追加](doc/linux/useradd.md)
 * [usergroup](doc/linux/group.md)
 * [xxhsum, 高速ハッシュアルゴリズムxxHashを使う](doc/linux/xxhsum.md)
+* [kernelをlinuxからlinux-ltsに変更](doc/archlinux/kernel.md)
 * [etckeeper - /etc/配下をgitで管理](doc/other/etckeeper.md)
 
 ## shell
