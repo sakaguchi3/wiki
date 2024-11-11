@@ -2,6 +2,8 @@
 
 ## install
 
+* <https://github.com/Jguer/yay>
+
 ```bash
 pacman -Syu binutils make gcc
 ```
