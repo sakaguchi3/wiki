@@ -85,6 +85,7 @@
 
 ## AlmaLinux
 
+* [dnf](doc/almalinux/dnf.md)
 * [AlmaLinux8.0 - partition作成〜フォーマット](doc/almalinux/almalinux_fdisk.md)
 * [AlmaLinux8.0 - ユーザ追加](doc/almalinux/almalinux_add_usr.md)
 * [AlmaLinux8.0 - install java17](doc/almalinux/almalinux_java17.md)
