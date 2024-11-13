@@ -116,6 +116,10 @@
 * [python - poetry](doc/python/poetry.md)
 * [pythonでパターンマッチング, tag:pattern,match](doc/python/pattern_matching.md)
 
+## go
+
+* [go](doc/go/go0001.md)
+
 ## find
 
 * [find - rm 大量のファイルを削除](doc/find/find_rm.md)
