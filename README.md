@@ -147,7 +147,8 @@
 ## aws
 
 * [aws lambda - pythonデプロイの作成](doc/aws/lambda01.md)
-* [aws cli](doc/aws/aws_cli.md)
+* [aws cli profile](doc/aws/aws_cli.md)
+* [aws cli s3](doc/aws/aws_s3.md)
 
 ## azure
 

@@ -1,4 +1,4 @@
-# aws cli
+# aws cli profile
 
 <https://zenn.dev/koniman/articles/c2cb227192f02a>
 
