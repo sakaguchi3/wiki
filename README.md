@@ -146,7 +146,8 @@
 
 ## aws
 
-* [aws lambda - pythonデプロイの作成](doc/aws-lambda/lambda01.md)
+* [aws lambda - pythonデプロイの作成](doc/aws/lambda01.md)
+* [aws cli](doc/aws/aws_cli.md)
 
 ## azure
 
